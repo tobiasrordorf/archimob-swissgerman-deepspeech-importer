@@ -28,7 +28,9 @@ The importer pre-processes the text-data so that it can be read by DeepSpeech.
 
 ## Automatic Speech Recognition with Mozilla's DeepSpeech 
 
-<a href='https://github.com/mozilla/DeepSpeech'> DeepSpeech Repository </a>
+<p> DeepSpeech by Mozilla is a TensorFlow implementation of Baidu's DeepSpeech architecture</p>
+<p> It is an open-source Speech-To-Text engine, and can ideally be used in combination with <a href='https://voice.mozilla.org/'>CommonVoice datasets</a>.
+<p>The repository can be accessed through this link: <a href='https://github.com/mozilla/DeepSpeech'> DeepSpeech</a> </p>
 
 ## Walk-through ArchiMob Importer
 
