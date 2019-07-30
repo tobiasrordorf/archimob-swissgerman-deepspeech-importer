@@ -1,8 +1,14 @@
-# swissgerman-deepspeech-importer
-DeepSpeech Importer for SwissGerman Corpora
+# Swiss-German DeepSpeech Importer
+
+This repository holds an Importer for the ArchiMob speech corpus. 
+The importer pre-processes the text-data so that it can be read by DeepSpeech. 
+
+## ArchiMob Corpus
+
+
 
 ## Automatic Speech Recognition with Mozilla's DeepSpeech: 
 
-<a url='https://github.com/mozilla/DeepSpeech'> DeepSpeech Repository </a>
+<a href='https://github.com/mozilla/DeepSpeech'> DeepSpeech Repository </a>
 
 
