@@ -1,7 +1,7 @@
 # Swiss-German DeepSpeech Importer
 
-This repository holds an Importer for the ArchiMob speech corpus. 
-The importer pre-processes the text-data so that it can used with the open-source Speech-to-Text engine by DeepSpeech. 
+This repository holds an Importer for the ArchiMob speech corpus.
+The importer pre-processes the text-data so that it can used with the open-source Speech-to-Text engine by DeepSpeech.
 
 **Table of Contents**
 
@@ -12,10 +12,13 @@ The importer pre-processes the text-data so that it can used with the open-sourc
 - [About this project](#About-this-project)
 
 <h>
-  
+
 
 ## Prerequisites
 
+* [Python 3.6](https://www.python.org/)
+* [Git Large File Storage](https://git-lfs.github.com/)
+* [tqdm](https://pypi.org/project/tqdm/)
 
 
 ## ArchiMob Corpus
@@ -28,7 +31,7 @@ The importer pre-processes the text-data so that it can used with the open-sourc
 <p>For access to the audio files, please follow the information on the homepage of the "Language and Space Lab"</p>
 
 
-## Automatic Speech Recognition with Mozilla's DeepSpeech 
+## Automatic Speech Recognition with Mozilla's DeepSpeech
 
 <p> DeepSpeech by Mozilla is a TensorFlow implementation of <a href='https://arxiv.org/abs/1412.5567'>Baidu's DeepSpeech architecture</a></p>
 <p> It is an open-source Speech-To-Text engine, and can ideally be used in combination with <a href='https://voice.mozilla.org/'>CommonVoice datasets</a>.
@@ -38,6 +41,6 @@ The importer pre-processes the text-data so that it can used with the open-sourc
 
 
 
-## About this project: 
+## About this project:
 
 <p>This importer was created as part of the Master Thesis "Automatic Speech Recognition for Swiss German using Deep Neural Networks" for the degree Master of Business Innovation at the University of St. Gallen by Tobias Rordorf. In case of questions you can contact me through <a href='https://www.linkedin.com/in/tobiasrordorf/'>LinkedIn</a>.
