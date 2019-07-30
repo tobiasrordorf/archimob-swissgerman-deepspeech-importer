@@ -10,6 +10,8 @@ The importer pre-processes the text-data so that it can be read by DeepSpeech.
 
 <p>The transcriptions including media-pointers (IDs to the audio file segments) are available in the XML-files <a href='https://www.spur.uzh.ch/en/departments/research/textgroup/ArchiMob.html'here</a>. When using this importer, the XML-files do not have to be downloaded automatically</p>
 
+<p>For access to the audio files, please follow the information on the homepage of the "Language and Space Lab"</p>
+
 
 ## Automatic Speech Recognition with Mozilla's DeepSpeech: 
 
