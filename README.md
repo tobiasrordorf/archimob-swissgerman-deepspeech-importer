@@ -1,7 +1,7 @@
 # Swiss-German DeepSpeech Importer
 
 This repository holds an Importer for the ArchiMob speech corpus. 
-The importer pre-processes the text-data so that it can be read by DeepSpeech. 
+The importer pre-processes the text-data so that it can used with the open-source Speech-to-Text engine by DeepSpeech. 
 
 **Table of Contents**
 
@@ -16,6 +16,8 @@ The importer pre-processes the text-data so that it can be read by DeepSpeech.
 
 ## Prerequisites
 
+
+
 ## ArchiMob Corpus
 
 <p>The ArchiMob corpus holds swiss german audio data as well as swiss-german and "high-german" transcriptions. </p>
@@ -28,7 +30,7 @@ The importer pre-processes the text-data so that it can be read by DeepSpeech.
 
 ## Automatic Speech Recognition with Mozilla's DeepSpeech 
 
-<p> DeepSpeech by Mozilla is a TensorFlow implementation of Baidu's DeepSpeech architecture</p>
+<p> DeepSpeech by Mozilla is a TensorFlow implementation of <a href='https://arxiv.org/abs/1412.5567'>Baidu's DeepSpeech architecture</a></p>
 <p> It is an open-source Speech-To-Text engine, and can ideally be used in combination with <a href='https://voice.mozilla.org/'>CommonVoice datasets</a>.
 <p>The repository can be accessed through this link: <a href='https://github.com/mozilla/DeepSpeech'> DeepSpeech</a> </p>
 
