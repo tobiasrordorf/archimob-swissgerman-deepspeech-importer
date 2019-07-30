@@ -3,6 +3,12 @@
 This repository holds an Importer for the ArchiMob speech corpus. 
 The importer pre-processes the text-data so that it can be read by DeepSpeech. 
 
+**Table of Contents**
+
+- [Prerequisites](##prerequisites)
+
+## Prerequisites
+
 ## ArchiMob Corpus
 
 <p>The ArchiMob corpus holds swiss german audio data as well as swiss-german and "high-german" transcriptions. </p>
@@ -16,6 +22,9 @@ The importer pre-processes the text-data so that it can be read by DeepSpeech.
 ## Automatic Speech Recognition with Mozilla's DeepSpeech: 
 
 <a href='https://github.com/mozilla/DeepSpeech'> DeepSpeech Repository </a>
+
+## Walk-through ArchiMob importer
+
 
 
 ## About this project: 
