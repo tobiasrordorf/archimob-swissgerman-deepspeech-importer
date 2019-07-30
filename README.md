@@ -6,10 +6,10 @@ The importer pre-processes the text-data so that it can be read by DeepSpeech.
 **Table of Contents**
 
 - [Prerequisites](##prerequisites)
-- [ArchiMob Corpus](##ArchiMob Corpus)
-- [Automatic Speech Recognition with Mozilla's DeepSpeech](##Automatic Speech Recognition with Mozilla's DeepSpeech)
-- [Walk-through ArchiMob Importer](##Walk-through ArchiMob Importer)
-- [About this project](##About this project)
+- [ArchiMob Corpus](##ArchiMob-Corpus)
+- [Automatic Speech Recognition with Mozilla's DeepSpeech](##Automatic-Speech-Recognition-with-Mozilla's-DeepSpeech)
+- [Walk-through ArchiMob Importer](##Walk-through-ArchiMob-Importer)
+- [About this project](##About-this-project)
 
 <br>
 <br>
