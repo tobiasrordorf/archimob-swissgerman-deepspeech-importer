@@ -3,6 +3,7 @@
 
 ## Extract words from XML into CSV for transcript matching, in preparation for DeepSpeech training CSV
 ##
+print('The ArchiMob importer in preparation for DeepSpeech training has started')
 
 #Imports
 import xml.etree.ElementTree as ET
@@ -22,6 +23,8 @@ import shutil
 #Import Audio pre-processing function
 from change_sample_rate import pre_process_audio
 
+
+
 #Download XML Zip File of ArchiMob Corpus
 url = 'https://www.spur.uzh.ch/dam/jcr:9e63ee4b-42eb-4204-a869-53aa2042d57c/ArchiMob_Release1_160812.zip'
 file_name = 'ArchiMob_Release1_160812.zip'
@@ -30,11 +33,21 @@ file_name = 'ArchiMob_Release1_160812.zip'
 def download_and_extract_zip(url):
     with urlopen(url) as zipresp:
         with ZipFile(BytesIO(zipresp.read())) as zfile:
-            zfile.extractall('./')
+            zfile.extractall('./Pre_Processing_Files')
 
 download_and_extract_zip(url)
 
 #Creating the necessary directories
+path_PP = './Pre_Processing_Files'
+
+if not os.path.exists(path_PP):
+    try:
+        os.mkdir(path_PP)
+    except OSError:
+        print('Creation of directory %s failed' %path_PP)
+    else:
+        print('Successfully created the directory %s' %path_PP)
+
 path_DS = './Final_Training_CSV_for_Deespeech'
 
 if not os.path.exists(path_DS):
@@ -45,7 +58,7 @@ if not os.path.exists(path_DS):
     else:
         print('Successfully created the directory %s' %path_DS)
 
-path_Extracts_CH = './ArchiMob_Release1_160812/XML_Transcripts_CH'
+path_Extracts_CH = './Pre_Processing_Files/ArchiMob_Release1_160812/XML_Transcripts_CH'
 
 if not os.path.exists(path_Extracts_CH):
     try:
@@ -55,7 +68,7 @@ if not os.path.exists(path_Extracts_CH):
     else:
         print('Successfully created the directory %s' %path_Extracts_CH)
 
-path_Extracts_DE = './ArchiMob_Release1_160812/XML_Transcripts_DE'
+path_Extracts_DE = './Pre_Processing_Files/ArchiMob_Release1_160812/XML_Transcripts_DE'
 if not os.path.exists(path_Extracts_DE):
     try:
         os.mkdir(path_Extracts_DE)
@@ -64,7 +77,7 @@ if not os.path.exists(path_Extracts_DE):
     else:
         print('Successfully created the directory %s' %path_Extracts_DE)
 
-path_CSV_merged = './CSV_Merged'
+path_CSV_merged = './Pre_Processing_Files/CSV_Merged'
 if not os.path.exists(path_CSV_merged):
     try:
         os.mkdir(path_CSV_merged)
@@ -73,7 +86,7 @@ if not os.path.exists(path_CSV_merged):
     else:
         print('Successfully created the directory %s' %path_CSV_merged)
 
-path_DS_audio = './DS_audio'
+path_DS_audio = './Pre_Processing_Files/DS_audio'
 if not os.path.exists(path_DS_audio):
     try:
         os.mkdir(path_DS_audio)
@@ -85,7 +98,7 @@ if not os.path.exists(path_DS_audio):
 #Audio pre-processing
 
 def merge_audiofiles_from_folders ():
-    path_audio = './audio_merged'
+    path_audio = './Pre_Processing_Files/audio_merged'
     if not os.path.exists(path_audio):
         try:
             os.mkdir(path_audio)
@@ -95,7 +108,7 @@ def merge_audiofiles_from_folders ():
             print('Successfully created the directory %s' %path_audio)
 
     src = r'./audio'
-    dest = r'./audio_merged'
+    dest = r'./Pre_Processing_Files/audio_merged'
 
     for path, subdirs, files in os.walk(src):
         for name in files:
@@ -142,14 +155,14 @@ def extract(xml_file):
         except:
             next
 
-    de_data.to_csv(Path('./ArchiMob_Release1_160812/XML_Transcripts_DE', f'{xml_file.stem}_transcript_DE.csv'), header=True, index=False, encoding='utf-8-sig')
-    ch_data.to_csv(Path('./ArchiMob_Release1_160812/XML_Transcripts_CH', f'{xml_file.stem}_transcript_CH.csv'), header=True, index=False, encoding='utf-8-sig')
+    de_data.to_csv(Path('./Pre_Processing_Files/ArchiMob_Release1_160812/XML_Transcripts_DE', f'{xml_file.stem}_transcript_DE.csv'), header=True, index=False, encoding='utf-8-sig')
+    ch_data.to_csv(Path('./Pre_Processing_Files/ArchiMob_Release1_160812/XML_Transcripts_CH', f'{xml_file.stem}_transcript_CH.csv'), header=True, index=False, encoding='utf-8-sig')
 
 #Remove duplicates and drop zero values
 
 def remove_duplicates_CH ():
     save_duplicates_CH = pd.DataFrame()
-    for csvfile in glob('./ArchiMob_Release1_160812/XML_Transcripts_CH/*.csv'):
+    for csvfile in glob('./Pre_Processing_Files/ArchiMob_Release1_160812/XML_Transcripts_CH/*.csv'):
         #read csv files of XML Extracts and sort by filename
         df_duplicates_CH = pd.read_csv(csvfile)
         df_duplicates_CH.sort_values("Filename", inplace=True)
@@ -168,12 +181,12 @@ def remove_duplicates_CH ():
         df_duplicates_CH.to_csv(csvfile, header=True, index=False, encoding='utf-8-sig')
 
         save_duplicates_CH = save_duplicates_CH.append(write_duplicates_CH)
-    save_duplicates_CH.to_csv('./CSV_Merged/ArchiMob_Transcript_list_of_double IDs_CH.csv', header=True, index=False, encoding='utf-8-sig')
+    save_duplicates_CH.to_csv('./Pre_Processing_Files/CSV_Merged/ArchiMob_Transcript_list_of_double IDs_CH.csv', header=True, index=False, encoding='utf-8-sig')
     print('Duplicates and zero values removed for CH-Files')
 
 def remove_duplicates_DE ():
     save_duplicates_DE = pd.DataFrame()
-    for csvfile in glob('./ArchiMob_Release1_160812/XML_Transcripts_DE/*.csv'):
+    for csvfile in glob('./Pre_Processing_Files/ArchiMob_Release1_160812/XML_Transcripts_DE/*.csv'):
         #read csv files of XML Extracts and sort by filename
         df_duplicates_DE = pd.read_csv(csvfile)
         df_duplicates_DE.sort_values("Filename", inplace=True)
@@ -192,7 +205,7 @@ def remove_duplicates_DE ():
         df_duplicates_DE.to_csv(csvfile, header=True, index=False, encoding='utf-8-sig')
 
         save_duplicates_DE = save_duplicates_DE.append(write_duplicates_DE)
-    save_duplicates_DE.to_csv('./CSV_Merged/ArchiMob_Transcript_list_of_double IDs_DE.csv', header=True, index=False, encoding='utf-8-sig')
+    save_duplicates_DE.to_csv('./Pre_Processing_Files/CSV_Merged/ArchiMob_Transcript_list_of_double IDs_DE.csv', header=True, index=False, encoding='utf-8-sig')
     print('Duplicates and zero values removed for DE-Files')
 
 #Merge CSV File per XML package to one file per language
@@ -201,21 +214,21 @@ def remove_duplicates_DE ():
 def merge_ch ():
     df_combined_CH = pd.DataFrame()
 
-    for entry in glob ('./ArchiMob_Release1_160812/XML_Transcripts_CH/*.csv'):
+    for entry in glob ('./Pre_Processing_Files/ArchiMob_Release1_160812/XML_Transcripts_CH/*.csv'):
         df = pd.read_csv(entry)
         df_combined_CH = df_combined_CH.append(df)
 
-    df_combined_CH.to_csv('./CSV_Merged/ArchiMob_Transcript_Merged_CH.csv', header=True, index=False, encoding='utf-8-sig')
+    df_combined_CH.to_csv('./Pre_Processing_Files/CSV_Merged/ArchiMob_Transcript_Merged_CH.csv', header=True, index=False, encoding='utf-8-sig')
     print('All CH files merged')
 
 def merge_de ():
     df_combined_DE = pd.DataFrame()
 
-    for entry in glob ('./ArchiMob_Release1_160812/XML_Transcripts_DE/*.csv'):
+    for entry in glob ('./Pre_Processing_Files/ArchiMob_Release1_160812/XML_Transcripts_DE/*.csv'):
         df = pd.read_csv(entry)
         df_combined_DE = df_combined_DE.append(df)
 
-    df_combined_DE.to_csv('./CSV_Merged/ArchiMob_Transcript_Merged_DE.csv', header=True, index=False, encoding='utf-8-sig')
+    df_combined_DE.to_csv('./Pre_Processing_Files/CSV_Merged/ArchiMob_Transcript_Merged_DE.csv', header=True, index=False, encoding='utf-8-sig')
     print('All DE files merged')
 
 def create_DS_csv ():
@@ -224,17 +237,17 @@ def create_DS_csv ():
     data = pd.DataFrame(columns=['wav_filepath', 'wav_filesize'])
     df = pd.DataFrame(columns=['wav_filepath', 'wav_filesize'])
 
-    for entry in glob('./audio_processed_final/*.wav'):
+    for entry in glob('./Pre_Processing_Files/audio_processed_final/*.wav'):
         filepath = os.path.abspath(entry)
         filesize = os.path.getsize(entry)
         df['wav_filepath'] = [filepath]
         df['wav_filesize'] = [filesize]
         data = data.append(df)
-    data.to_csv('./DS_audio/DS_Data_Archimob_Filepath_Filesize.csv', header=True, index=False, encoding='utf-8-sig')
+    data.to_csv('./Pre_Processing_Files/DS_audio/DS_Data_Archimob_Filepath_Filesize.csv', header=True, index=False, encoding='utf-8-sig')
 
 
 def merge_AM_transcripts (language):
-    df_ds_csv = pd.read_csv('./DS_audio/DS_Data_Archimob_Filepath_Filesize.csv')
+    df_ds_csv = pd.read_csv('./Pre_Processing_Files/DS_audio/DS_Data_Archimob_Filepath_Filesize.csv')
     df_ds_csv['Filename'] = df_ds_csv['wav_filepath']
 
     #Extract ID from filepath for merging
@@ -245,11 +258,11 @@ def merge_AM_transcripts (language):
 
     df_ds_csv_2 = df_ds_csv['Filename'].apply(extract_ID)
     df_ds_csv['Filename'] = df_ds_csv_2
-    df_ds_csv.to_csv('./DS_audio/DS_Data_Archimob_Prep.csv', header=True, index=False, encoding='utf-8-sig')
+    df_ds_csv.to_csv('./Pre_Processing_Files/DS_audio/DS_Data_Archimob_Prep.csv', header=True, index=False, encoding='utf-8-sig')
 
     #replace deviating characters from Transcript file,
     df_archi_trans = pd.DataFrame()
-    df_archi_trans = pd.read_csv('./CSV_Merged/ArchiMob_Transcript_Merged_' + language +'.csv')
+    df_archi_trans = pd.read_csv('./Pre_Processing_Files/CSV_Merged/ArchiMob_Transcript_Merged_' + language +'.csv')
     df_archi_trans['Filename'] = df_archi_trans['Filename'].str.replace('-', '_')
 
     #Merge on the column Filename
@@ -267,7 +280,7 @@ def merge_AM_transcripts (language):
 #Call the functions
 
 #Extract CH and DE from XMLs
-path_to_XML = './ArchiMob_Release1_160812/XML/Content'
+path_to_XML = './Pre_Processing_Files/ArchiMob_Release1_160812/XML/Content'
 _ = Parallel(n_jobs=4)(delayed(extract)(xml_file) for xml_file in tqdm(list(Path(path_to_XML).glob("*.xml")), desc="XML Conversion"))
 
 #Remove duplicates in CH and DE data
@@ -279,7 +292,7 @@ merge_ch()
 merge_de()
 
 #This function creates a CSV file with the columns Filepath and Filesize for DS-Training
-if os.path.isdir('./audio_processed_final') is True:
+if os.path.isdir('./Pre_Processing_Files/audio_processed_final') is True:
     create_DS_csv()
 else:
     print('WARNING: No folder "audio_processed_final" with ArchiMob audio files detected, therefore no Transcript-Merge with Filepath&Filesize')
@@ -289,7 +302,7 @@ else:
 #Merge the transcripts from the XML files with the DeepSpeech CSV
 #The DS-CSV offers filepaths and filesize of all audio files in the directory
 
-if os.path.isdir('./audio_processed_final') is True:
+if os.path.isdir('./Pre_Processing_Files/audio_processed_final') is True:
     merge_AM_transcripts('CH')
     merge_AM_transcripts('DE')
 else:

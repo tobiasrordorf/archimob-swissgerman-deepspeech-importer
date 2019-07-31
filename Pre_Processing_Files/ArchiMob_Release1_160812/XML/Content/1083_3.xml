@@ -1,0 +1,1705 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription 1083_3</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>University of Zurich</publisher>
+        <distributor>CorpusLab @ UFSP Sprache und Raum</distributor>
+        <pubPlace>Zurich, Switzerland</pubPlace>
+        <date>June 2016, Release 1.0</date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="video" xml:id="d1083_3">
+            <respStmt>
+              <name>Archimob Association</name>
+              <resp>www.archimob.ch/d/archimob.html</resp>
+            </respStmt>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u start="media_pointers#d1083_3-TLI_0" xml:id="d1083_3-u1" who="person_db#ZHel1083">
+        <w normalised="sehr" tag="ADV" xml:id="d1083_3-u1-w1">seer</w>
+        <w normalised="wenig" tag="PIS" xml:id="d1083_3-u1-w2">wenig</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_0" xml:id="d1083_3-u2" who="interviewer">
+        <del type="truncation" xml:id="d1083_3-u2-w1">w/</del>
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u2-w2">wo</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u2-w3">sii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_1" xml:id="d1083_3-u3" who="person_db#ZHel1083">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u3-w1">jaa</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u3-w2">das</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u3-w3">isch</w>
+        <w normalised="auch" tag="ADV" xml:id="d1083_3-u3-w4">ä</w>
+        <w normalised="so" tag="ADV" xml:id="d1083_3-u3-w5">so</w>
+        <w normalised="etwas" tag="PIS" xml:id="d1083_3-u3-w6">öppis</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u3-w7">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_2" xml:id="d1083_3-u4" who="person_db#ZHel1083">
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u4-w1">ich</w>
+        <w normalised="bin" tag="VAFIN" xml:id="d1083_3-u4-w2">bin</w>
+        <w normalised="auch" tag="ADV" xml:id="d1083_3-u4-w3">ä</w>
+        <w normalised="nicht" tag="PTKNEG" xml:id="d1083_3-u4-w4">nid</w>
+        <w normalised="viel" tag="ADV" xml:id="d1083_3-u4-w5">vil</w>
+        <w normalised="ins" tag="APPRART" xml:id="d1083_3-u4-w6">is</w>
+        <w normalised="theater" tag="NN" xml:id="d1083_3-u4-w7">teaater</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u4-w8">ich</w>
+        <w normalised="wäre" tag="VAFIN" xml:id="d1083_3-u4-w9">wäär</w>
+        <w normalised="schon" tag="ADV" xml:id="d1083_3-u4-w10">scho</w>
+        <w normalised="gerne" tag="ADJD" xml:id="d1083_3-u4-w11">gäärn</w>
+        <w normalised="gegangen" tag="VVPP" xml:id="d1083_3-u4-w12">ggange</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_3" xml:id="d1083_3-u5" who="person_db#ZHel1083">
+        <w normalised="die" tag="ART" xml:id="d1083_3-u5-w1">d</w>
+        <w normalised="mutter" tag="NN" xml:id="d1083_3-u5-w2">mueter</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u5-w3">isch</w>
+        <w normalised="immer" tag="ADV" xml:id="d1083_3-u5-w4">immer</w>
+        <w normalised="mit" tag="APPR" xml:id="d1083_3-u5-w5">mit</w>
+        <w normalised="uns" tag="PPER" xml:id="d1083_3-u5-w6">öis</w>
+        <w normalised="gegangen" tag="VVPP" xml:id="d1083_3-u5-w7">ggange</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_4" xml:id="d1083_3-u6" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u6-w1">und</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u6-w2">ich</w>
+        <w normalised="bin" tag="VAFIN" xml:id="d1083_3-u6-w3">bi</w>
+        <w normalised="sogar" tag="ADV" xml:id="d1083_3-u6-w4">sogaar</w>
+        <w normalised="so" tag="ADV" xml:id="d1083_3-u6-w5">so</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_5" xml:id="d1083_3-u7" who="person_db#ZHel1083">
+        <w normalised="bereit" tag="NN" xml:id="d1083_3-u7-w1">prüüd</w>
+        <w normalised="erzogen" tag="VVPP" xml:id="d1083_3-u7-w2">erzoge</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u7-w3">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_6" xml:id="d1083_3-u8" who="person_db#ZHel1083">
+        <w normalised="dass" tag="KOUS" xml:id="d1083_3-u8-w1">das</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u8-w2">ich</w>
+        <w normalised="mich" tag="PPER" xml:id="d1083_3-u8-w3">miich</w>
+        <w normalised="geschiniert" tag="VVPP" xml:id="d1083_3-u8-w4">gschiniirt</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u8-w5">han</w>
+        <w normalised="inhin" tag="APPRART" xml:id="d1083_3-u8-w6">ine</w>
+        <w normalised="kinoreklamen" tag="NN" xml:id="d1083_3-u8-w7">kinoreklaame</w>
+        <w normalised="zu" tag="PTKZU" xml:id="d1083_3-u8-w8">z</w>
+        <w normalised="lugen" tag="VVINF" xml:id="d1083_3-u8-w9">luege</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_7" xml:id="d1083_3-u9" who="person_db#ZHel1083">
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u9-w1">ich</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u9-w2">ha</w>
+        <w normalised="schon" tag="ADV" xml:id="d1083_3-u9-w3">scho</w>
+        <w normalised="gemeint" tag="VVPP" xml:id="d1083_3-u9-w4">gmäint</w>
+        <w normalised="selbe" tag="PDAT" xml:id="d1083_3-u9-w5">säb</w>
+        <w normalised="sei" tag="VAFIN" xml:id="d1083_3-u9-w6">seg</w>
+        <w normalised="etwas" tag="PIS" xml:id="d1083_3-u9-w7">öppis</w>
+        <w normalised="unanständiges" tag="ADJA" xml:id="d1083_3-u9-w8">unaaschtändigs</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u9-w9">und</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_8" xml:id="d1083_3-u10" who="person_db#ZHel1083">
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u10-w1">ich</w>
+        <w normalised="meine" tag="VVFIN" xml:id="d1083_3-u10-w2">mäine</w>
+        <w normalised="mit" tag="APPR" xml:id="d1083_3-u10-w3">mit</w>
+        <w normalised="den" tag="ART" xml:id="d1083_3-u10-w4">de</w>
+        <pause xml:id="d1083_3-u10-w5"/>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u10-w6">deet</w>
+        <w normalised="sind wir" tag="PPER" xml:id="d1083_3-u10-w7">simmir</w>
+        <w normalised="eher" tag="ADV" xml:id="d1083_3-u10-w8">eener</w>
+        <w normalised="auf" tag="APPR" xml:id="d1083_3-u10-w9">uf</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u10-w10">die</w>
+        <w normalised="selbe" tag="PDAT" xml:id="d1083_3-u10-w11">sääb</w>
+        <w normalised="seite" tag="NN" xml:id="d1083_3-u10-w12">siiten</w>
+        <w normalised="aushin" tag="ADV" xml:id="d1083_3-u10-w13">use</w>
+        <w normalised="abnormal" tag="ADJD" xml:id="d1083_3-u10-w14">abnormaal</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u10-w15">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_9" xml:id="d1083_3-u11" who="interviewer">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u11-w1">jaa</w>
+        <w normalised="frau" tag="NN" xml:id="d1083_3-u11-w2">frau</w>
+        <w normalised="z***" tag="ADV" xml:id="d1083_3-u11-w3">z***</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_10" xml:id="d1083_3-u12" who="person_db#ZHel1083">
+        <gap reason="unintelligible" xml:id="d1083_3-u12-w1">...</gap>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_10" xml:id="d1083_3-u13" who="interviewer">
+        <w normalised="danke" tag="VVINF" xml:id="d1083_3-u13-w1">tanke</w>
+        <w normalised="vielmals" tag="ADV" xml:id="d1083_3-u13-w2">vilmaal</w>
+        <w normalised="dass" tag="KOUS" xml:id="d1083_3-u13-w3">das</w>
+        <w normalised="man" tag="PPER" xml:id="d1083_3-u13-w4">mer</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u13-w5">händ</w>
+        <w normalised="können" tag="VMINF" xml:id="d1083_3-u13-w6">chöne</w>
+        <w normalised="kommen" tag="VVINF" xml:id="d1083_3-u13-w7">choo</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_11" xml:id="d1083_3-u14" who="person_db#ZHel1083">
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u14-w1">ich</w>
+        <w normalised="weiss" tag="VVFIN" xml:id="d1083_3-u14-w2">wäis</w>
+        <w normalised="es" tag="PPER" xml:id="d1083_3-u14-w3">es</w>
+        <w normalised="nicht" tag="PTKNEG" xml:id="d1083_3-u14-w4">nöd</w>
+        <w normalised="hoffentlich" tag="ADJD" xml:id="d1083_3-u14-w5">hoffentlich</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u14-w6">han</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u14-w7">ich</w>
+        <w normalised="ihnen" tag="PPER" xml:id="d1083_3-u14-w8">ine</w>
+        <w normalised="jetzt" tag="ADV" xml:id="d1083_3-u14-w9">jez</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_11" xml:id="d1083_3-u15" who="interviewer">
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u15-w1">ich</w>
+        <w normalised="danken" tag="VVFIN" xml:id="d1083_3-u15-w2">danke</w>
+        <w normalised="für" tag="CARD" xml:id="d1083_3-u15-w3">fü</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u15-w4">das</w>
+        <w normalised="gespräch" tag="VVPP" xml:id="d1083_3-u15-w5">gschprööch</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_12" xml:id="d1083_3-u16" who="person_db#ZHel1083">
+        <w normalised="alles" tag="PIS" xml:id="d1083_3-u16-w1">ales</w>
+        <w normalised="gesagt" tag="VVPP" xml:id="d1083_3-u16-w2">gsäit</w>
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u16-w3">won</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u16-w4">ich</w>
+        <w normalised="gemeint" tag="VVPP" xml:id="d1083_3-u16-w5">gmäint</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u16-w6">han</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_13" xml:id="d1083_3-u17" who="interviewer">
+        <w normalised="alles" tag="PIS" xml:id="d1083_3-u17-w1">ales</w>
+        <w normalised="kann" tag="VMFIN" xml:id="d1083_3-u17-w2">cha</w>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u17-w3">me</w>
+        <w normalised="glaub" tag="VVFIN" xml:id="d1083_3-u17-w4">glaub</w>
+        <w normalised="nie" tag="ADV" xml:id="d1083_3-u17-w5">nie</w>
+        <w normalised="sagen" tag="VVINF" xml:id="d1083_3-u17-w6">säge</w>
+        <w normalised="aber" tag="KON" xml:id="d1083_3-u17-w7">aber</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u17-w8">si</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u17-w9">händ</w>
+        <w normalised="uns" tag="PPER" xml:id="d1083_3-u17-w10">öis</w>
+        <w normalised="einen" tag="ART" xml:id="d1083_3-u17-w11">en</w>
+        <w normalised="eindruck" tag="NN" xml:id="d1083_3-u17-w12">iidruk</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_14" xml:id="d1083_3-u18" who="interviewer">
+        <w normalised="gegeben" tag="VVPP" xml:id="d1083_3-u18-w1">ggää</w>
+        <w normalised="von" tag="APPR" xml:id="d1083_3-u18-w2">vo</w>
+        <w normalised="der" tag="PDAT" xml:id="d1083_3-u18-w3">däre</w>
+        <w normalised="zeit" tag="NN" xml:id="d1083_3-u18-w4">ziit</w>
+        <w normalised="wie" tag="KOKOM" xml:id="d1083_3-u18-w5">wi</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u18-w6">si</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u18-w7">si</w>
+        <w normalised="erlebt" tag="VVPP" xml:id="d1083_3-u18-w8">erläbt</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u18-w9">händ</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_15" xml:id="d1083_3-u19" who="person_db#ZHel1083">
+        <unclear>
+          <w normalised="ich" tag="PPER" xml:id="d1083_3-u19-w1">ich</w>
+        </unclear>
+        <unclear>
+          <w normalised="ich" tag="PPER" xml:id="d1083_3-u19-w2">ich</w>
+        </unclear>
+        <w normalised="amerikaner" tag="NN" xml:id="d1083_3-u19-w3">amerikaaner</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_15" xml:id="d1083_3-u20" who="interviewer">
+        <w normalised="danken" tag="ITJ" xml:id="d1083_3-u20-w1">danke</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_16" xml:id="d1083_3-u21" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u21-w1">und</w>
+        <w normalised="wir" tag="PPER" xml:id="d1083_3-u21-w2">miir</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u21-w3">händ</w>
+        <w normalised="angst" tag="NN" xml:id="d1083_3-u21-w4">angscht</w>
+        <w normalised="übergekommen" tag="VVPP" xml:id="d1083_3-u21-w5">überchoo</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u21-w6">ich</w>
+        <w normalised="bin" tag="VAFIN" xml:id="d1083_3-u21-w7">bin</w>
+        <w normalised="mit" tag="APPR" xml:id="d1083_3-u21-w8">mit</w>
+        <w normalised="dann" tag="PDS" xml:id="d1083_3-u21-w9">dä</w>
+        <w normalised="mit" tag="APPR" xml:id="d1083_3-u21-w10">mit</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_17" xml:id="d1083_3-u22" who="person_db#ZHel1083">
+        <w normalised="mit einem" tag="APPRART" xml:id="d1083_3-u22-w1">mitemne</w>
+        <w normalised="herr" tag="NN" xml:id="d1083_3-u22-w2">härr</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u22-w3">und</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u22-w4">und</w>
+        <w normalised="ein" tag="ART" xml:id="d1083_3-u22-w5">e</w>
+        <w normalised="paar" tag="PIAT" xml:id="d1083_3-u22-w6">paar</w>
+        <w normalised="kindern" tag="NN" xml:id="d1083_3-u22-w7">chinde</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_18" xml:id="d1083_3-u23" who="person_db#ZHel1083">
+        <w normalised="gan" tag="PTKINF" xml:id="d1083_3-u23-w1">go</w>
+        <w normalised="velo" tag="NN" xml:id="d1083_3-u23-w2">weloo</w>
+        <w normalised="fahren" tag="VVINF" xml:id="d1083_3-u23-w3">faare</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_19" xml:id="d1083_3-u24" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u24-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u24-w2">dänn</w>
+        <w normalised="bei" tag="APPR" xml:id="d1083_3-u24-w3">bi</w>
+        <w normalised="hatlingen" tag="VVINF" xml:id="d1083_3-u24-w4">hetlinge</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u24-w5">isch</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_20" xml:id="d1083_3-u25" who="person_db#ZHel1083">
+        <w normalised="plötzlich" tag="ADJD" xml:id="d1083_3-u25-w1">plözlich</w>
+        <w normalised="da" tag="PDS" xml:id="d1083_3-u25-w2">da</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u25-w3">sind</w>
+        <w normalised="da" tag="ADV" xml:id="d1083_3-u25-w4">da</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u25-w5">die</w>
+        <w normalised="blaue" tag="ADJA" xml:id="d1083_3-u25-w6">blaue</w>
+        <w normalised="ding" tag="NN" xml:id="d1083_3-u25-w7">ding</w>
+        <w normalised="obenabhin" tag="ADV" xml:id="d1083_3-u25-w8">obenabe</w>
+        <w normalised="gekommen" tag="VVPP" xml:id="d1083_3-u25-w9">choo</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_21" xml:id="d1083_3-u26" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u26-w1">und</w>
+        <w normalised="wir" tag="PPER" xml:id="d1083_3-u26-w2">mir</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u26-w3">händ</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u26-w4">d</w>
+        <w normalised="velo" tag="NN" xml:id="d1083_3-u26-w5">weloo</w>
+        <w normalised="an den" tag="APPR" xml:id="d1083_3-u26-w6">an</w>
+        <w normalised="rand" tag="NN" xml:id="d1083_3-u26-w7">rand</w>
+        <w normalised="gerührt" tag="VVPP" xml:id="d1083_3-u26-w8">grüert</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_22" xml:id="d1083_3-u27" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u27-w1">und</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u27-w2">sind</w>
+        <w normalised="in den" tag="APPR" xml:id="d1083_3-u27-w3">in</w>
+        <w normalised="strassenraben" tag="NN" xml:id="d1083_3-u27-w4">schtraasserabe</w>
+        <w normalised="graben" tag="VVPP" xml:id="d1083_3-u27-w5">grabe</w>
+        <w normalised="gelegen" tag="VVPP" xml:id="d1083_3-u27-w6">gläge</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_23" xml:id="d1083_3-u28" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u28-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u28-w2">dänn</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u28-w3">hät</w>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u28-w4">me</w>
+        <w normalised="gesehen" tag="VVPP" xml:id="d1083_3-u28-w5">gsee</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u28-w6">dänn</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u28-w7">sind</w>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u28-w8">die</w>
+        <w normalised="weiter" tag="ADJD" xml:id="d1083_3-u28-w9">wiiter</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_24" xml:id="d1083_3-u29" who="person_db#ZHel1083">
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u29-w1">dänn</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u29-w2">sind</w>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u29-w3">die</w>
+        <w normalised="allweg" tag="ADV" xml:id="d1083_3-u29-w4">allwääg</w>
+        <w normalised="bin" tag="APPR" xml:id="d1083_3-u29-w5">bi</w>
+        <w normalised="dübendorf" tag="NE" xml:id="d1083_3-u29-w6">dübedorf</w>
+        <w normalised="abhin" tag="ADV" xml:id="d1083_3-u29-w7">abe</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_25" xml:id="d1083_3-u30" who="interviewer">
+        <w normalised="die" tag="ART" xml:id="d1083_3-u30-w1">d</w>
+        <w normalised="flieger" tag="NN" xml:id="d1083_3-u30-w2">flüüger</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_26" xml:id="d1083_3-u31" who="person_db#ZHel1083">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u31-w1">ja</w>
+        <w normalised="da" tag="ADV" xml:id="d1083_3-u31-w2">doo</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u31-w3">isch</w>
+        <w normalised="noch nicht" tag="PTKNEG" xml:id="d1083_3-u31-w4">nonig</w>
+        <w normalised="kloten" tag="VVINF" xml:id="d1083_3-u31-w5">chloote</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_26" xml:id="d1083_3-u32" who="interviewer">
+        <w normalised="aus" tag="APPR" xml:id="d1083_3-u32-w1">us</w>
+        <w normalised="von" tag="APPR" xml:id="d1083_3-u32-w2">vo</w>
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u32-w3">woo</w>
+        <w normalised="was" tag="PWS" xml:id="d1083_3-u32-w4">was</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u32-w5">sind</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u32-w6">das</w>
+        <w normalised="fütige" tag="ADJA" xml:id="d1083_3-u32-w7">fütigi</w>
+        <w normalised="deutsche" tag="ADJA" xml:id="d1083_3-u32-w8">tütschi</w>
+        <w normalised="flieger" tag="NN" xml:id="d1083_3-u32-w9">flüüger</w>
+        <w normalised="oder" tag="KON" xml:id="d1083_3-u32-w10">oder</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_27" xml:id="d1083_3-u33" who="interviewer">
+        <w normalised="nein" tag="PTKANT" xml:id="d1083_3-u33-w1">näi</w>
+        <w normalised="amerikaner" tag="NN" xml:id="d1083_3-u33-w2">amerikaaner</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_28" xml:id="d1083_3-u34" who="person_db#ZHel1083">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u34-w1">ja</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_29" xml:id="d1083_3-u35" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u35-w1">und</w>
+        <w normalised="da" tag="ADV" xml:id="d1083_3-u35-w2">doo</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u35-w3">hät</w>
+        <w normalised="es" tag="ART" xml:id="d1083_3-u35-w4">s</w>
+        <w normalised="eben" tag="ADV" xml:id="d1083_3-u35-w5">ebe</w>
+        <w normalised="verschiedene" tag="ADJA" xml:id="d1083_3-u35-w6">veschideni</w>
+        <w normalised="amerikaner" tag="NN" xml:id="d1083_3-u35-w7">amerikaaner</w>
+        <w normalised="gehabt" tag="VAPP" xml:id="d1083_3-u35-w8">ghaa</w>
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u35-w9">wo</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u35-w10">dänn</w>
+        <w normalised="gekommen" tag="VVPP" xml:id="d1083_3-u35-w11">choo</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u35-w12">sind</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_30" xml:id="d1083_3-u36" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u36-w1">und</w>
+        <w normalised="übrigens" tag="ADV" xml:id="d1083_3-u36-w2">übrigens</w>
+        <w normalised="auch" tag="ADV" xml:id="d1083_3-u36-w3">au</w>
+        <w normalised="in" tag="APPR" xml:id="d1083_3-u36-w4">i</w>
+        <w normalised="den" tag="ART" xml:id="d1083_3-u36-w5">de</w>
+        <w normalised="ferien" tag="NN" xml:id="d1083_3-u36-w6">färie</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_31" xml:id="d1083_3-u37" who="person_db#ZHel1083">
+        <w normalised="haben wir" tag="VAFIN+" xml:id="d1083_3-u37-w1">hämmer</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u37-w2">die</w>
+        <w normalised="internierten" tag="NN" xml:id="d1083_3-u37-w3">interniirten</w>
+        <w normalised="erlebt" tag="VVPP" xml:id="d1083_3-u37-w4">erläbt</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_32" xml:id="d1083_3-u38" who="person_db#ZHel1083">
+        <w normalised="in" tag="APPR" xml:id="d1083_3-u38-w1">in</w>
+        <w normalised="adelboden" tag="NN" xml:id="d1083_3-u38-w2">adelbode</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_33" xml:id="d1083_3-u39" who="person_db#ZHel1083">
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u39-w1">das</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u39-w2">isch</w>
+        <w normalised="zum" tag="APPRART" xml:id="d1083_3-u39-w3">zum</w>
+        <w normalised="geheissen" tag="NN" xml:id="d1083_3-u39-w4">göisse</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u39-w5">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_34" xml:id="d1083_3-u40" who="person_db#ZHel1083">
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u40-w1">döt</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u40-w2">sind</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u40-w3">die</w>
+        <w normalised="amerikaner" tag="NN" xml:id="d1083_3-u40-w4">amerikaaner</w>
+        <w normalised="gekommen" tag="VVPP" xml:id="d1083_3-u40-w5">choo</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_35" xml:id="d1083_3-u41" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u41-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u41-w2">dänn</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u41-w3">händ</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u41-w4">s</w>
+        <w normalised="es" tag="ART" xml:id="d1083_3-u41-w5">es</w>
+        <w normalised="paar" tag="PIAT" xml:id="d1083_3-u41-w6">paar</w>
+        <w normalised="scheine" tag="NN" xml:id="d1083_3-u41-w7">schii</w>
+        <w normalised="gekauft" tag="VVFIN" xml:id="d1083_3-u41-w8">kauft</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_36" xml:id="d1083_3-u42" who="person_db#ZHel1083">
+        <w normalised="oder" tag="KON" xml:id="d1083_3-u42-w1">oder</w>
+        <w normalised="gemietet" tag="VVPP" xml:id="d1083_3-u42-w2">gmietet</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_37" xml:id="d1083_3-u43" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u43-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u43-w2">dänn</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u43-w3">sind</w>
+        <w normalised="das" tag="ART" xml:id="d1083_3-u43-w4">s</w>
+        <w normalised="zu oberst" tag="NN" xml:id="d1083_3-u43-w5">zoberscht</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_38" xml:id="d1083_3-u44" who="person_db#ZHel1083">
+        <unclear>
+          <w normalised="ins" tag="APPRART" xml:id="d1083_3-u44-w1">is</w>
+        </unclear>
+        <w normalised="kunisberglein" tag="NN" xml:id="d1083_3-u44-w2">kuenisbäärgli</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_39" xml:id="d1083_3-u45" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u45-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u45-w2">dänn</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u45-w3">händ</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u45-w4">s</w>
+        <w normalised="es" tag="PPER" xml:id="d1083_3-u45-w5">es</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_40" xml:id="d1083_3-u46" who="person_db#ZHel1083">
+        <vocal>
+          <desc xml:id="d1083_3-u46-w1">ehm</desc>
+        </vocal>
+        <w normalised="parallel" tag="ADJD" xml:id="d1083_3-u46-w2">paralel</w>
+        <w normalised="gestellt" tag="VVPP" xml:id="d1083_3-u46-w3">gschtelt</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_41" xml:id="d1083_3-u47" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u47-w1">und</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u47-w2">sind</w>
+        <w normalised="losgeschossen" tag="VVPP" xml:id="d1083_3-u47-w3">loosgschosse</w>
+        <unclear>
+          <w normalised="dann" tag="ADV" xml:id="d1083_3-u47-w4">dänn</w>
+        </unclear>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u47-w5">sind</w>
+        <w normalised="das" tag="PPER" xml:id="d1083_3-u47-w6">s</w>
+        <w normalised="wieder" tag="ADV" xml:id="d1083_3-u47-w7">wider</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_42" xml:id="d1083_3-u48" who="person_db#ZHel1083">
+        <w normalised="umgeflogen" tag="VVPP" xml:id="d1083_3-u48-w1">umgfloge</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u48-w2">und</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u48-w3">sind</w>
+        <w normalised="wieder" tag="ADV" xml:id="d1083_3-u48-w4">wider</w>
+        <w normalised="weiter" tag="ADJD" xml:id="d1083_3-u48-w5">wiiter</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_43" xml:id="d1083_3-u49" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u49-w1">und</w>
+        <w normalised="übrigens" tag="ADV" xml:id="d1083_3-u49-w2">übrigens</w>
+        <w normalised="in" tag="APPR" xml:id="d1083_3-u49-w3">i</w>
+        <w normalised="dawo es" tag="PRELS+" xml:id="d1083_3-u49-w4">dawoos</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u49-w5">isch</w>
+        <unclear>
+          <w normalised="das" tag="ART" xml:id="d1083_3-u49-w6">s</w>
+        </unclear>
+        <w normalised="gleich" tag="ADV" xml:id="d1083_3-u49-w7">gliich</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u49-w8">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_44" xml:id="d1083_3-u50" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u50-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u50-w2">dänn</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u50-w3">isch</w>
+        <w normalised="einmal" tag="ADV" xml:id="d1083_3-u50-w4">emaal</w>
+        <w normalised="einer" tag="PIS" xml:id="d1083_3-u50-w5">äine</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u50-w6">das</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_45" xml:id="d1083_3-u51" who="person_db#ZHel1083">
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u51-w1">dä</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u51-w2">isch</w>
+        <w normalised="in" tag="APPR" xml:id="d1083_3-u51-w3">i</w>
+        <w normalised="davos" tag="ADJD" xml:id="d1083_3-u51-w4">dawoos</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u51-w5">gsi</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_46" xml:id="d1083_3-u52" who="person_db#ZHel1083">
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u52-w1">isch</w>
+        <w normalised="dann" tag="ART" xml:id="d1083_3-u52-w2">dä</w>
+        <w normalised="so" tag="ADV" xml:id="d1083_3-u52-w3">esoo</w>
+        <w normalised="herrlich" tag="ADJD" xml:id="d1083_3-u52-w4">härrlich</w>
+        <w normalised="umgeflogen" tag="VVPP" xml:id="d1083_3-u52-w5">umgfloge</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_47" xml:id="d1083_3-u53" who="person_db#ZHel1083">
+        <w normalised="dass" tag="KOUS" xml:id="d1083_3-u53-w1">dass</w>
+        <w normalised="er" tag="PPER" xml:id="d1083_3-u53-w2">er</w>
+        <w normalised="auf" tag="APPR" xml:id="d1083_3-u53-w3">uf</w>
+        <w normalised="dem" tag="ART" xml:id="d1083_3-u53-w4">em</w>
+        <w normalised="kopf" tag="NN" xml:id="d1083_3-u53-w5">chopf</w>
+        <w normalised="gestanden" tag="VVPP" xml:id="d1083_3-u53-w6">gschtanden</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u53-w7">isch</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_48" xml:id="d1083_3-u54" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u54-w1">und</w>
+        <w normalised="der" tag="ADV" xml:id="d1083_3-u54-w2">de</w>
+        <w normalised="der" tag="ART" xml:id="d1083_3-u54-w3">de</w>
+        <w normalised="hut" tag="ADV" xml:id="d1083_3-u54-w4">huet</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u54-w5">isch</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_49" xml:id="d1083_3-u55" who="person_db#ZHel1083">
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u55-w1">isch</w>
+        <w normalised="ein" tag="ART" xml:id="d1083_3-u55-w2">e</w>
+        <w normalised="paar" tag="PIAT" xml:id="d1083_3-u55-w3">paar</w>
+        <w normalised="meter" tag="NN" xml:id="d1083_3-u55-w4">meeter</w>
+        <w normalised="weiter" tag="ADV" xml:id="d1083_3-u55-w5">wiiter</w>
+        <w normalised="hinten" tag="ADV" xml:id="d1083_3-u55-w6">hine</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u55-w7">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_50" xml:id="d1083_3-u56" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u56-w1">und</w>
+        <w normalised="er" tag="PPER" xml:id="d1083_3-u56-w2">är</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_51" xml:id="d1083_3-u57" who="person_db#ZHel1083">
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u57-w1">aso</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u57-w2">das</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u57-w3">isch</w>
+        <w normalised="einfach" tag="ADV" xml:id="d1083_3-u57-w4">äifach</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_52" xml:id="d1083_3-u58" who="person_db#ZHel1083">
+        <del type="truncation" xml:id="d1083_3-u58-w1">s/</del>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u58-w2">me</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u58-w3">hät</w>
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u58-w4">aso</w>
+        <w normalised="so" tag="ADV" xml:id="d1083_3-u58-w5">so</w>
+        <w normalised="direkt" tag="ADV" xml:id="d1083_3-u58-w6">diräkt</w>
+        <w normalised="müssen" tag="VMINF" xml:id="d1083_3-u58-w7">müse</w>
+        <w normalised="lachen" tag="NN" xml:id="d1083_3-u58-w8">lache</w>
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u58-w9">wo</w>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u58-w10">me</w>
+        <w normalised="gewesen" tag="VVPP" xml:id="d1083_3-u58-w11">gsää</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u58-w12">hät</w>
+        <w normalised="das" tag="KOUS" xml:id="d1083_3-u58-w13">das</w>
+        <w normalised="dem" tag="PPER" xml:id="d1083_3-u58-w14">em</w>
+        <w normalised="nichts" tag="PIS" xml:id="d1083_3-u58-w15">nüüt</w>
+        <w normalised="gemacht" tag="VVPP" xml:id="d1083_3-u58-w16">gmacht</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u58-w17">hät</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_53" xml:id="d1083_3-u59" who="person_db#ZHel1083">
+        <w normalised="aber" tag="KON" xml:id="d1083_3-u59-w1">aber</w>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u59-w2">die</w>
+        <del type="truncation" xml:id="d1083_3-u59-w3">hä/</del>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u59-w4">di</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u59-w5">sind</w>
+        <w normalised="oben" tag="ADV" xml:id="d1083_3-u59-w6">oben</w>
+        <w normalised="anhingestanden" tag="VVPP" xml:id="d1083_3-u59-w7">anegschtanden</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u59-w8">und</w>
+        <w normalised="gerade" tag="ADJD" xml:id="d1083_3-u59-w9">graad</w>
+        <w normalised="abhingefahren" tag="VVPP" xml:id="d1083_3-u59-w10">abegfaare</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u59-w11">und</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_54" xml:id="d1083_3-u60" who="person_db#ZHel1083">
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u60-w1">da</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u60-w2">han</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u60-w3">ich</w>
+        <w normalised="gedacht" tag="VVFIN" xml:id="d1083_3-u60-w4">tänket</w>
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u60-w5">ase</w>
+        <w normalised="furchtlos" tag="PTKVZ" xml:id="d1083_3-u60-w6">furchtloos</w>
+        <w normalised="sollte" tag="VMFIN" xml:id="d1083_3-u60-w7">söt</w>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u60-w8">me</w>
+        <w normalised="können" tag="VMFIN" xml:id="d1083_3-u60-w9">chöne</w>
+        <w normalised="sie" tag="VAINF" xml:id="d1083_3-u60-w10">sii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_55" xml:id="d1083_3-u61" who="interviewer">
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u61-w1">si</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u61-w2">händ</w>
+        <w normalised="ja" tag="ADV" xml:id="d1083_3-u61-w3">ja</w>
+        <w normalised="denfall" tag="PDAT+" xml:id="d1083_3-u61-w4">demfall</w>
+        <vocal>
+          <desc xml:id="d1083_3-u61-w5">ehm</desc>
+        </vocal>
+        <w normalised="recht" tag="ADV" xml:id="d1083_3-u61-w6">rächt</w>
+        <w normalised="eine" tag="ART" xml:id="d1083_3-u61-w7">e</w>
+        <w normalised="lustige" tag="ADJA" xml:id="d1083_3-u61-w8">luschtigi</w>
+        <w normalised="zeit" tag="NN" xml:id="d1083_3-u61-w9">ziit</w>
+        <vocal>
+          <desc xml:id="d1083_3-u61-w10">ehm</desc>
+        </vocal>
+        <w normalised="verbracht" tag="VVPP" xml:id="d1083_3-u61-w11">vebraacht</w>
+        <w normalised="in" tag="APPR" xml:id="d1083_3-u61-w12">i</w>
+        <w normalised="der" tag="ART" xml:id="d1083_3-u61-w13">de</w>
+        <w normalised="schweiz" tag="NE" xml:id="d1083_3-u61-w14">schwiiz</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_56" xml:id="d1083_3-u62" who="person_db#ZHel1083">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u62-w1">jaa</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_56" xml:id="d1083_3-u63" who="interviewer">
+        <w normalised="die" tag="ART" xml:id="d1083_3-u63-w1">die</w>
+        <w normalised="die" tag="PDAT" xml:id="d1083_3-u63-w2">die</w>
+        <w normalised="internierten" tag="NN" xml:id="d1083_3-u63-w3">interniirte</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_57" xml:id="d1083_3-u64" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u64-w1">und</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u64-w2">ich</w>
+        <w normalised="auch" tag="ADV" xml:id="d1083_3-u64-w3">au</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u64-w4">di</w>
+        <w normalised="polen" tag="NE" xml:id="d1083_3-u64-w5">poole</w>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u64-w6">di</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u64-w7">sind</w>
+        <w normalised="nämlich" tag="ADV" xml:id="d1083_3-u64-w8">nämlich</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_58" xml:id="d1083_3-u65" who="person_db#ZHel1083">
+        <w normalised="gerne" tag="ADV" xml:id="d1083_3-u65-w1">gäärn</w>
+        <w normalised="da" tag="ADV" xml:id="d1083_3-u65-w2">daa</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u65-w3">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_59" xml:id="d1083_3-u66" who="person_db#ZHel1083">
+        <w normalised="der" tag="ART" xml:id="d1083_3-u66-w1">dä</w>
+        <w normalised="eine" tag="PIS" xml:id="d1083_3-u66-w2">äinti</w>
+        <w normalised="der" tag="PDS" xml:id="d1083_3-u66-w3">de</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u66-w4">isch</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_60" xml:id="d1083_3-u67" who="person_db#ZHel1083">
+        <w normalised="am" tag="APPRART" xml:id="d1083_3-u67-w1">am</w>
+        <w normalised="heilpädagogischen" tag="ADJA" xml:id="d1083_3-u67-w2">häilpädagoogische</w>
+        <w normalised="seminar" tag="NN" xml:id="d1083_3-u67-w3">seminaar</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u67-w4">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_61" xml:id="d1083_3-u68" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u68-w1">und</w>
+        <w normalised="dann" tag="ART" xml:id="d1083_3-u68-w2">dä</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u68-w3">das</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u68-w4">isch</w>
+        <w normalised="eine" tag="ART" xml:id="d1083_3-u68-w5">e</w>
+        <w normalised="tragische" tag="ADJA" xml:id="d1083_3-u68-w6">traagischi</w>
+        <w normalised="sache" tag="NN" xml:id="d1083_3-u68-w7">sach</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u68-w8">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_62" xml:id="d1083_3-u69" who="person_db#ZHel1083">
+        <w normalised="der" tag="ADV" xml:id="d1083_3-u69-w1">dä</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u69-w2">hät</w>
+        <w normalised="immer" tag="ADV" xml:id="d1083_3-u69-w3">immer</w>
+        <w normalised="behauptet" tag="VVPP" xml:id="d1083_3-u69-w4">behauptet</w>
+        <w normalised="seine" tag="PPOSAT" xml:id="d1083_3-u69-w5">sini</w>
+        <w normalised="mutter" tag="NN" xml:id="d1083_3-u69-w6">mueter</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u69-w7">isch</w>
+        <w normalised="eine" tag="ART" xml:id="d1083_3-u69-w8">e</w>
+        <w normalised="prinzessin" tag="NN" xml:id="d1083_3-u69-w9">prinzässin</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u69-w10">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_63" xml:id="d1083_3-u70" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u70-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u70-w2">dänn</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u70-w3">hät</w>
+        <w normalised="er" tag="PPER" xml:id="d1083_3-u70-w4">är</w>
+        <w normalised="immer" tag="ADV" xml:id="d1083_3-u70-w5">immer</w>
+        <w normalised="behauptet" tag="VVFIN" xml:id="d1083_3-u70-w6">behauptet</w>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u70-w7">me</w>
+        <w normalised="komme" tag="VVFIN" xml:id="d1083_3-u70-w8">chöm</w>
+        <w normalised="mit" tag="APPR" xml:id="d1083_3-u70-w9">mit</w>
+        <w normalised="denen" tag="PDAT" xml:id="d1083_3-u70-w10">dene</w>
+        <w normalised="schon" tag="ADV" xml:id="d1083_3-u70-w11">scho</w>
+        <w normalised="aus" tag="PTKVZ" xml:id="d1083_3-u70-w12">uus</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_64" xml:id="d1083_3-u71" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u71-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u71-w2">dänn</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u71-w3">isch</w>
+        <w normalised="er" tag="PPER" xml:id="d1083_3-u71-w4">är</w>
+        <w normalised="auf" tag="APPR" xml:id="d1083_3-u71-w5">uf</w>
+        <w normalised="russland" tag="NE" xml:id="d1083_3-u71-w6">russland</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_65" xml:id="d1083_3-u72" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u72-w1">und</w>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u72-w2">deet</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u72-w3">isch</w>
+        <w normalised="er" tag="PPER" xml:id="d1083_3-u72-w4">er</w>
+        <w normalised="ein" tag="ART" xml:id="d1083_3-u72-w5">en</w>
+        <w normalised="adliger" tag="ADJA" xml:id="d1083_3-u72-w6">adlige</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u72-w7">gsii</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u72-w8">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u72-w9">dänn</w>
+        <w normalised="adieur" tag="$(" xml:id="d1083_3-u72-w10">adiö</w>
+        <w normalised="mit" tag="PTKVZ" xml:id="d1083_3-u72-w11">mit</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_66" xml:id="d1083_3-u73" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u73-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u73-w2">dä</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u73-w3">hät</w>
+        <w normalised="gemeint" tag="VVPP" xml:id="d1083_3-u73-w4">gmäint</w>
+        <w normalised="er" tag="PPER" xml:id="d1083_3-u73-w5">er</w>
+        <pause xml:id="d1083_3-u73-w6"/>
+        <unclear>
+          <w normalised="könne" tag="VMFIN" xml:id="d1083_3-u73-w7">chön</w>
+        </unclear>
+        <w normalised="mit" tag="APPR" xml:id="d1083_3-u73-w8">mit</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_67" xml:id="d1083_3-u74" who="interviewer">
+        <w normalised="wann" tag="PWS" xml:id="d1083_3-u74-w1">wänn</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u74-w2">isch</w>
+        <w normalised="er" tag="PPER" xml:id="d1083_3-u74-w3">er</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u74-w4">dänn</w>
+        <w normalised="auf" tag="APPR" xml:id="d1083_3-u74-w5">uf</w>
+        <w normalised="russland" tag="NE" xml:id="d1083_3-u74-w6">russland</w>
+        <w normalised="nach" tag="APPR" xml:id="d1083_3-u74-w7">nach</w>
+        <w normalised="dem" tag="ART" xml:id="d1083_3-u74-w8">em</w>
+        <w normalised="nach" tag="APPR" xml:id="d1083_3-u74-w9">nach</w>
+        <w normalised="dem" tag="ART" xml:id="d1083_3-u74-w10">em</w>
+        <w normalised="krieg" tag="NN" xml:id="d1083_3-u74-w11">chrieg</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_68" xml:id="d1083_3-u75" who="person_db#ZHel1083">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u75-w1">ja</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_68" xml:id="d1083_3-u76" who="interviewer">
+        <w normalised="nach" tag="APPR" xml:id="d1083_3-u76-w1">nach</w>
+        <w normalised="dem" tag="ART" xml:id="d1083_3-u76-w2">em</w>
+        <w normalised="zweiten" tag="ADJA" xml:id="d1083_3-u76-w3">zwäite</w>
+        <w normalised="weltkrieg" tag="NN" xml:id="d1083_3-u76-w4">wältchrieg</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_69" xml:id="d1083_3-u77" who="person_db#ZHel1083">
+        <w normalised="nachdem" tag="ADV" xml:id="d1083_3-u77-w1">nachdem</w>
+        <w normalised="schon" tag="ADV" xml:id="d1083_3-u77-w2">scho</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u77-w3">und</w>
+        <w normalised="nachdem" tag="KOUS" xml:id="d1083_3-u77-w4">nachdem</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u77-w5">di</w>
+        <w normalised="internierten" tag="NN" xml:id="d1083_3-u77-w6">interniirte</w>
+        <w normalised="schon" tag="ADV" xml:id="d1083_3-u77-w7">scho</w>
+        <w normalised="heim" tag="ADV" xml:id="d1083_3-u77-w8">häi</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u77-w9">sind</w>
+        <w normalised="nicht" tag="PTKNEG" xml:id="d1083_3-u77-w10">nid</w>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u77-w11">die</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u77-w12">sind</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u77-w13">dänn</w>
+        <w normalised="nachher" tag="ADV" xml:id="d1083_3-u77-w14">nacher</w>
+        <w normalised="heim" tag="ADV" xml:id="d1083_3-u77-w15">häi</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_69" xml:id="d1083_3-u78" who="interviewer">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u78-w1">und</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u78-w2">isch</w>
+        <w normalised="nicht mehr" tag="PTKNEG" xml:id="d1083_3-u78-w3">nüme</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u78-w4">isch</w>
+        <w normalised="nicht mehr" tag="PTKNEG" xml:id="d1083_3-u78-w5">nüme</w>
+        <w normalised="zurückgekommen" tag="VVPP" xml:id="d1083_3-u78-w6">zruggchoo</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_70" xml:id="d1083_3-u79" who="person_db#ZHel1083">
+        <w normalised="die" tag="ART" xml:id="d1083_3-u79-w1">di</w>
+        <w normalised="meisten" tag="ADJD" xml:id="d1083_3-u79-w2">mäischte</w>
+        <w normalised="es" tag="PPER" xml:id="d1083_3-u79-w3">es</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u79-w4">hät</w>
+        <w normalised="derige" tag="PIS" xml:id="d1083_3-u79-w5">därigi</w>
+        <w normalised="gehabt" tag="VAPP" xml:id="d1083_3-u79-w6">ghaa</w>
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u79-w7">wo</w>
+        <w normalised="geblieben" tag="VVPP" xml:id="d1083_3-u79-w8">plibe</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u79-w9">sind</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_71" xml:id="d1083_3-u80" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u80-w1">und</w>
+        <w normalised="vom" tag="APPRART" xml:id="d1083_3-u80-w2">vom</w>
+        <w normalised="einen" tag="PIS" xml:id="d1083_3-u80-w3">äinte</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u80-w4">han</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u80-w5">ich</w>
+        <w normalised="noch" tag="ADV" xml:id="d1083_3-u80-w6">no</w>
+        <w normalised="gehört" tag="VVPP" xml:id="d1083_3-u80-w7">ghöört</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u80-w8">das</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u80-w9">isch</w>
+        <w normalised="einen" tag="ART" xml:id="d1083_3-u80-w10">en</w>
+        <w normalised="künstler" tag="NN" xml:id="d1083_3-u80-w11">künschtler</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u80-w12">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_72" xml:id="d1083_3-u81" who="person_db#ZHel1083">
+        <w normalised="von" tag="APPR" xml:id="d1083_3-u81-w1">vo</w>
+        <w normalised="dem" tag="PDS" xml:id="d1083_3-u81-w2">dem</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u81-w3">han</w>
+        <w normalised="ich" tag="APPR" xml:id="d1083_3-u81-w4">i</w>
+        <w normalised="noch" tag="ADV" xml:id="d1083_3-u81-w5">no</w>
+        <w normalised="eine" tag="ART" xml:id="d1083_3-u81-w6">e</w>
+        <w normalised="maske" tag="NN" xml:id="d1083_3-u81-w7">maske</w>
+        <w normalised="gehabt" tag="VAPP" xml:id="d1083_3-u81-w8">ghaa</w>
+        <w normalised="aber" tag="KON" xml:id="d1083_3-u81-w9">aber</w>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u81-w10">die</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u81-w11">han</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u81-w12">ich</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u81-w13">dänn</w>
+        <w normalised="verschenkt" tag="VVPP" xml:id="d1083_3-u81-w14">veschänkt</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_73" xml:id="d1083_3-u82" who="interviewer">
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u82-w1">si</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u82-w2">händ</w>
+        <w normalised="vorher" tag="ADV" xml:id="d1083_3-u82-w3">vorhär</w>
+        <w normalised="noch" tag="ADV" xml:id="d1083_3-u82-w4">no</w>
+        <w normalised="geredet" tag="VVPP" xml:id="d1083_3-u82-w5">gredt</w>
+        <w normalised="von" tag="APPR" xml:id="d1083_3-u82-w6">vo</w>
+        <w normalised="den" tag="ART" xml:id="d1083_3-u82-w7">de</w>
+        <w normalised="bombardierung" tag="NN" xml:id="d1083_3-u82-w8">bombardierig</w>
+        <w normalised="von" tag="APPR" xml:id="d1083_3-u82-w9">vo</w>
+        <w normalised="zürich" tag="NE" xml:id="d1083_3-u82-w10">züri</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_74" xml:id="d1083_3-u83" who="person_db#ZHel1083">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u83-w1">jaa</w>
+        <w normalised="nein" tag="PTKANT" xml:id="d1083_3-u83-w2">näi</w>
+        <w normalised="es" tag="PPER" xml:id="d1083_3-u83-w3">es</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u83-w4">isch</w>
+        <w normalised="so" tag="ADV" xml:id="d1083_3-u83-w5">esoo</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u83-w6">gsii</w>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u83-w7">die</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u83-w8">händ</w>
+        <w normalised="wissen" tag="VVFIN" xml:id="d1083_3-u83-w9">wüssed</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u83-w10">si</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_74" xml:id="d1083_3-u84" who="interviewer">
+        <w normalised="können" tag="VMFIN" xml:id="d1083_3-u84-w1">chönd</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u84-w2">si</w>
+        <w normalised="uns" tag="PPER" xml:id="d1083_3-u84-w3">öis</w>
+        <w normalised="verzählen" tag="VVINF" xml:id="d1083_3-u84-w4">vezele</w>
+        <w normalised="wie" tag="PWS" xml:id="d1083_3-u84-w5">wi</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u84-w6">das</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u84-w7">gsii</w>
+        <w normalised="was" tag="PWS" xml:id="d1083_3-u84-w8">was</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u84-w9">si</w>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u84-w10">deet</w>
+        <w normalised="erlebt" tag="VVPP" xml:id="d1083_3-u84-w11">erläbt</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u84-w12">händ</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_75" xml:id="d1083_3-u85" who="person_db#ZHel1083">
+        <w normalised="es" tag="PPER" xml:id="d1083_3-u85-w1">es</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u85-w2">isch</w>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u85-w3">deete</w>
+        <w normalised="vom" tag="APPRART" xml:id="d1083_3-u85-w4">vom</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_76" xml:id="d1083_3-u86" who="person_db#ZHel1083">
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u86-w1">wo</w>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u86-w2">me</w>
+        <w normalised="zum" tag="APPRART" xml:id="d1083_3-u86-w3">zum</w>
+        <w normalised="tunnell" tag="ADJD" xml:id="d1083_3-u86-w4">tunnell</w>
+        <w normalised="ausgekommt" tag="VVFIN" xml:id="d1083_3-u86-w5">uuschunt</w>
+        <w normalised="geht" tag="VVFIN" xml:id="d1083_3-u86-w6">gaat</w>
+        <w normalised="es" tag="PPER" xml:id="d1083_3-u86-w7">s</w>
+        <w normalised="doch" tag="ADV" xml:id="d1083_3-u86-w8">doch</w>
+        <w normalised="über" tag="APPR" xml:id="d1083_3-u86-w9">über</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u86-w10">di</w>
+        <w normalised="grosse" tag="ADJA" xml:id="d1083_3-u86-w11">groossi</w>
+        <w normalised="brugg" tag="NN" xml:id="d1083_3-u86-w12">brugg</w>
+        <w normalised="bruge" tag="NN" xml:id="d1083_3-u86-w13">brug</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_76" xml:id="d1083_3-u87" who="interviewer">
+        <w normalised="bei" tag="VAFIN" xml:id="d1083_3-u87-w1">bi</w>
+        <w normalised="bei" tag="APPR" xml:id="d1083_3-u87-w2">bi</w>
+        <w normalised="wipkingen" tag="VVINF" xml:id="d1083_3-u87-w3">wipkinge</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_77" xml:id="d1083_3-u88" who="person_db#ZHel1083">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u88-w1">jaa</w>
+        <w normalised="bei" tag="APPR" xml:id="d1083_3-u88-w2">bi</w>
+        <w normalised="wipkingen" tag="VVINF" xml:id="d1083_3-u88-w3">wipkinge</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u88-w4">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u88-w5">dänn</w>
+        <w normalised="nachher" tag="ADV" xml:id="d1083_3-u88-w6">nacher</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u88-w7">isch</w>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u88-w8">men</w>
+        <w normalised="immer" tag="ADV" xml:id="d1083_3-u88-w9">immer</w>
+        <w normalised="auf" tag="APPR" xml:id="d1083_3-u88-w10">uf</w>
+        <w normalised="dem" tag="PDAT" xml:id="d1083_3-u88-w11">dem</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_77" xml:id="d1083_3-u89" who="interviewer">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u89-w1">ja</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_78" xml:id="d1083_3-u90" who="person_db#ZHel1083">
+        <w normalised="grosse" tag="ADJA" xml:id="d1083_3-u90-w1">groosse</w>
+        <w normalised="ding" tag="NN" xml:id="d1083_3-u90-w2">ding</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_79" xml:id="d1083_3-u91" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u91-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u91-w2">dänn</w>
+        <w normalised="gerade" tag="ADV" xml:id="d1083_3-u91-w3">grad</w>
+        <w normalised="links" tag="ADJD" xml:id="d1083_3-u91-w4">links</w>
+        <w normalised="unten" tag="VVINF" xml:id="d1083_3-u91-w5">une</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_80" xml:id="d1083_3-u92" who="person_db#ZHel1083">
+        <del type="truncation" xml:id="d1083_3-u92-w1">gan/</del>
+        <w normalised="es" tag="PPER" xml:id="d1083_3-u92-w2">es</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u92-w3">isch</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u92-w4">dänn</w>
+        <w normalised="weit" tag="ADJD" xml:id="d1083_3-u92-w5">wiit</w>
+        <w normalised="unten" tag="ADV" xml:id="d1083_3-u92-w6">une</w>
+        <w normalised="für" tag="APPR" xml:id="d1083_3-u92-w7">für</w>
+        <w normalised="uns" tag="PPER" xml:id="d1083_3-u92-w8">öis</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_81" xml:id="d1083_3-u93" who="person_db#ZHel1083">
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u93-w1">hät</w>
+        <w normalised="es" tag="ART" xml:id="d1083_3-u93-w2">s</w>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u93-w3">deet</w>
+        <w normalised="eine" tag="ART" xml:id="d1083_3-u93-w4">e</w>
+        <w normalised="ganzes" tag="ADJA" xml:id="d1083_3-u93-w5">ganzes</w>
+        <w normalised="quartier" tag="NN" xml:id="d1083_3-u93-w6">kwartier</w>
+        <w normalised="gehabt" tag="VAPP" xml:id="d1083_3-u93-w7">ghaa</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_82" xml:id="d1083_3-u94" who="person_db#ZHel1083">
+        <w normalised="das" tag="ADV" xml:id="d1083_3-u94-w1">da</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u94-w2">hät</w>
+        <w normalised="das" tag="PPER" xml:id="d1083_3-u94-w3">s</w>
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u94-w4">aso</w>
+        <w normalised="manches" tag="PIAT" xml:id="d1083_3-u94-w5">mängs</w>
+        <w normalised="haus" tag="NN" xml:id="d1083_3-u94-w6">huus</w>
+        <w normalised="gehabt" tag="VAPP" xml:id="d1083_3-u94-w7">ghaa</w>
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u94-w8">wo</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u94-w9">dänn</w>
+        <w normalised="getroffen" tag="VVPP" xml:id="d1083_3-u94-w10">troffe</w>
+        <w normalised="worden" tag="VAPP" xml:id="d1083_3-u94-w11">woorden</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u94-w12">isch</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_83" xml:id="d1083_3-u95" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u95-w1">und</w>
+        <w normalised="ich" tag="APPR" xml:id="d1083_3-u95-w2">i</w>
+        <w normalised="schaffhausen" tag="NN" xml:id="d1083_3-u95-w3">schafhuuse</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u95-w4">hät</w>
+        <w normalised="es" tag="PPER" xml:id="d1083_3-u95-w5">s</w>
+        <w normalised="ja" tag="ADV" xml:id="d1083_3-u95-w6">ja</w>
+        <w normalised="auch" tag="ART" xml:id="d1083_3-u95-w7">ä</w>
+        <w normalised="leute" tag="NN" xml:id="d1083_3-u95-w8">lüüt</w>
+        <vocal>
+          <desc xml:id="d1083_3-u95-w9">ehm</desc>
+        </vocal>
+        <del type="truncation" xml:id="d1083_3-u95-w10">d/</del>
+        <w normalised="häusern" tag="NN" xml:id="d1083_3-u95-w11">hüüser</w>
+        <w normalised="gehabt" tag="VAPP" xml:id="d1083_3-u95-w12">ghaa</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_84" xml:id="d1083_3-u96" who="interviewer">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u96-w1">und</w>
+        <w normalised="was" tag="PWS" xml:id="d1083_3-u96-w2">was</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u96-w3">händ</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u96-w4">sii</w>
+        <w normalised="damals" tag="PDS" xml:id="d1083_3-u96-w5">daamaals</w>
+        <w normalised="gedacht" tag="VVPP" xml:id="d1083_3-u96-w6">tänkt</w>
+        <w normalised="was" tag="PWS" xml:id="d1083_3-u96-w7">was</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u96-w8">das</w>
+        <vocal>
+          <desc xml:id="d1083_3-u96-w9">ehm</desc>
+        </vocal>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_85" xml:id="d1083_3-u97" who="person_db#ZHel1083">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u97-w1">ja</w>
+        <w normalised="das" tag="KOUS" xml:id="d1083_3-u97-w2">das</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u97-w3">si</w>
+        <w normalised="sich" tag="PRF" xml:id="d1083_3-u97-w4">sich</w>
+        <w normalised="verert" tag="VVPP" xml:id="d1083_3-u97-w5">verirt</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u97-w6">händ</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_85" xml:id="d1083_3-u98" who="interviewer">
+        <unclear>
+          <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u98-w1">het</w>
+        </unclear>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u98-w2">das</w>
+        <w normalised="seien" tag="VVFIN" xml:id="d1083_3-u98-w3">seged</w>
+        <w normalised="fehltreffer" tag="NN" xml:id="d1083_3-u98-w4">fäälträffer</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u98-w5">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_86" xml:id="d1083_3-u99" who="person_db#ZHel1083">
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u99-w1">dänn</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u99-w2">hät</w>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u99-w3">me</w>
+        <w normalised="denkt" tag="VVFIN" xml:id="d1083_3-u99-w4">tänkt</w>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u99-w5">di</w>
+        <w normalised="seien" tag="VAFIN" xml:id="d1083_3-u99-w6">seged</w>
+        <w normalised="halt" tag="ADV" xml:id="d1083_3-u99-w7">halt</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_87" xml:id="d1083_3-u100" who="person_db#ZHel1083">
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u100-w1">heged</w>
+        <w normalised="keine" tag="PIAT" xml:id="d1083_3-u100-w2">käi</w>
+        <w normalised="rechte" tag="ADJA" xml:id="d1083_3-u100-w3">rächti</w>
+        <w normalised="karten" tag="NN" xml:id="d1083_3-u100-w4">chaarte</w>
+        <w normalised="gehabt" tag="VAPP" xml:id="d1083_3-u100-w5">ghaa</w>
+        <w normalised="oder" tag="KON" xml:id="d1083_3-u100-w6">oder</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_88" xml:id="d1083_3-u101" who="person_db#ZHel1083">
+        <w normalised="die" tag="ART" xml:id="d1083_3-u101-w1">d</w>
+        <w normalised="schweiz" tag="NE" xml:id="d1083_3-u101-w2">schwiiz</w>
+        <w normalised="sei" tag="VAFIN" xml:id="d1083_3-u101-w3">seig</w>
+        <w normalised="so" tag="ADV" xml:id="d1083_3-u101-w4">esoo</w>
+        <w normalised="winzige" tag="ADJA" xml:id="d1083_3-u101-w5">winzig</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_89" xml:id="d1083_3-u102" who="person_db#ZHel1083">
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u102-w1">das</w>
+        <w normalised="wenn" tag="PWS" xml:id="d1083_3-u102-w2">wänn</w>
+        <w normalised="das" tag="PPER" xml:id="d1083_3-u102-w3">s</w>
+        <w normalised="über" tag="APPR" xml:id="d1083_3-u102-w4">über</w>
+        <w normalised="schaffhausen" tag="NN" xml:id="d1083_3-u102-w5">schafhusen</w>
+        <w normalised="inhingekommen" tag="VVFIN" xml:id="d1083_3-u102-w6">inechömed</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_90" xml:id="d1083_3-u103" who="person_db#ZHel1083">
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u103-w1">sind</w>
+        <w normalised="das" tag="ART" xml:id="d1083_3-u103-w2">s</w>
+        <w normalised="schon" tag="ADV" xml:id="d1083_3-u103-w3">scho</w>
+        <w normalised="zu" tag="APPR" xml:id="d1083_3-u103-w4">z</w>
+        <w normalised="zürich" tag="NE" xml:id="d1083_3-u103-w5">züri</w>
+        <w normalised="nicht" tag="PTKNEG" xml:id="d1083_3-u103-w6">ned</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_91" xml:id="d1083_3-u104" who="person_db#ZHel1083">
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u104-w1">das</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u104-w2">isch</w>
+        <w normalised="eben" tag="ADV" xml:id="d1083_3-u104-w3">ebe</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u104-w4">daas</w>
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u104-w5">wo</w>
+        <w normalised="man" tag="PPER" xml:id="d1083_3-u104-w6">mer</w>
+        <w normalised="auch" tag="ADV" xml:id="d1083_3-u104-w7">ä</w>
+        <w normalised="gefürchtet" tag="VVPP" xml:id="d1083_3-u104-w8">gfürcht</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u104-w9">hät</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_92" xml:id="d1083_3-u105" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u105-w1">und</w>
+        <w normalised="darum" tag="PAV" xml:id="d1083_3-u105-w2">drum</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u105-w3">sind</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u105-w4">di</w>
+        <w normalised="rechte" tag="ADJA" xml:id="d1083_3-u105-w5">rächti</w>
+        <w normalised="leute" tag="NN" xml:id="d1083_3-u105-w6">lüüt</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u105-w7">dänn</w>
+        <w normalised="an" tag="APPR" xml:id="d1083_3-u105-w8">an</w>
+        <w normalised="thunersee" tag="NN" xml:id="d1083_3-u105-w9">tuunersee</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_93" xml:id="d1083_3-u106" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u106-w1">und</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u106-w2">di</w>
+        <w normalised="linken" tag="NN" xml:id="d1083_3-u106-w3">lingge</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u106-w4">sind</w>
+        <w normalised="geblieben" tag="VVPP" xml:id="d1083_3-u106-w5">plibe</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_94" xml:id="d1083_3-u107" who="person_db#ZHel1083">
+        <w normalised="nein" tag="PTKANT" xml:id="d1083_3-u107-w1">näi</w>
+        <w normalised="aber" tag="KON" xml:id="d1083_3-u107-w2">aber</w>
+        <w normalised="wir" tag="PPER" xml:id="d1083_3-u107-w3">miir</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u107-w4">händ</w>
+        <w normalised="uns" tag="PPER" xml:id="d1083_3-u107-w5">öis</w>
+        <w normalised="natürlich" tag="ADV" xml:id="d1083_3-u107-w6">natüürli</w>
+        <w normalised="gefreut" tag="VVPP" xml:id="d1083_3-u107-w7">gfröit</w>
+        <w normalised="dass" tag="KOUS" xml:id="d1083_3-u107-w8">das</w>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u107-w9">me</w>
+        <w normalised="nachher" tag="ADV" xml:id="d1083_3-u107-w10">nacher</w>
+        <w normalised="gerade" tag="ADV" xml:id="d1083_3-u107-w11">grad</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_95" xml:id="d1083_3-u108" who="person_db#ZHel1083">
+        <w normalised="das" tag="KOUS" xml:id="d1083_3-u108-w1">das</w>
+        <w normalised="man" tag="PPER" xml:id="d1083_3-u108-w2">me</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u108-w3">hät</w>
+        <w normalised="können" tag="VMINF" xml:id="d1083_3-u108-w4">chöne</w>
+        <w normalised="wieder" tag="ADV" xml:id="d1083_3-u108-w5">wider</w>
+        <w normalised="reden" tag="VVINF" xml:id="d1083_3-u108-w6">rede</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_96" xml:id="d1083_3-u109" who="person_db#ZHel1083">
+        <w normalised="dass" tag="KOUS" xml:id="d1083_3-u109-w1">das</w>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u109-w2">me</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u109-w3">dänn</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u109-w4">hät</w>
+        <w normalised="dürfen" tag="VVINF" xml:id="d1083_3-u109-w5">törfe</w>
+        <w normalised="ja" tag="ADV" xml:id="d1083_3-u109-w6">ja</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_97" xml:id="d1083_3-u110" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u110-w1">und</w>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u110-w2">deeten</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u110-w3">isch</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u110-w4">dänn</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_98" xml:id="d1083_3-u111" who="person_db#ZHel1083">
+        <del type="truncation" xml:id="d1083_3-u111-w1">s/</del>
+        <w normalised="was" tag="PWS" xml:id="d1083_3-u111-w2">was</w>
+        <w normalised="mich" tag="PPER" xml:id="d1083_3-u111-w3">mich</w>
+        <w normalised="am" tag="APPRART" xml:id="d1083_3-u111-w4">am</w>
+        <w normalised="meisten" tag="ADJD" xml:id="d1083_3-u111-w5">mäischte</w>
+        <w normalised="interessiert" tag="ADJD" xml:id="d1083_3-u111-w6">interessiert</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u111-w7">hät</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u111-w8">isch</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u111-w9">das</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_99" xml:id="d1083_3-u112" who="person_db#ZHel1083">
+        <w normalised="im" tag="APPRART" xml:id="d1083_3-u112-w1">im</w>
+        <w normalised="sport" tag="NN" xml:id="d1083_3-u112-w2">schport</w>
+        <w normalised="amm" tag="APPRART" xml:id="d1083_3-u112-w3">am</w>
+        <w normalised="kleinsten" tag="NN" xml:id="d1083_3-u112-w4">gliinschten</w>
+        <w normalised="ausgeglichen" tag="VVPP" xml:id="d1083_3-u112-w5">uusgliche</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u112-w6">hät</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_100" xml:id="d1083_3-u113" who="person_db#ZHel1083">
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u113-w1">da</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u113-w2">sind</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u113-w3">d</w>
+        <w normalised="feind" tag="NN" xml:id="d1083_3-u113-w4">find</w>
+        <w normalised="zahlen erst" tag="ADV" xml:id="d1083_3-u113-w5">zalereerscht</w>
+        <w normalised="wieder" tag="ADV" xml:id="d1083_3-u113-w6">wider</w>
+        <w normalised="miteinander" tag="ADV" xml:id="d1083_3-u113-w7">mitenand</w>
+        <w normalised="gegangen" tag="VVPP" xml:id="d1083_3-u113-w8">ggange</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_101" xml:id="d1083_3-u114" who="person_db#ZHel1083">
+        <w normalised="aber" tag="KON" xml:id="d1083_3-u114-w1">aber</w>
+        <w normalised="sonst" tag="VAFIN" xml:id="d1083_3-u114-w2">sunsch</w>
+        <w normalised="eben" tag="ADV" xml:id="d1083_3-u114-w3">ebe</w>
+        <w normalised="wie" tag="KOKOM" xml:id="d1083_3-u114-w4">wien</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u114-w5">iich</w>
+        <w normalised="gesagt" tag="VVPP" xml:id="d1083_3-u114-w6">gsäit</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u114-w7">han</w>
+        <w normalised="von" tag="APPR" xml:id="d1083_3-u114-w8">vo</w>
+        <w normalised="dankelsbule" tag="ADV" xml:id="d1083_3-u114-w9">dinkelsbüel</w>
+        <w normalised="nicht" tag="PTKNEG" xml:id="d1083_3-u114-w10">nöd</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_102" xml:id="d1083_3-u115" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u115-w1">und</w>
+        <w normalised="in" tag="APPR" xml:id="d1083_3-u115-w2">i</w>
+        <w normalised="deutschland" tag="NE" xml:id="d1083_3-u115-w3">tütschland</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u115-w4">hät</w>
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u115-w5">me</w>
+        <w normalised="sehr" tag="ADV" xml:id="d1083_3-u115-w6">seer</w>
+        <w normalised="viel" tag="ADV" xml:id="d1083_3-u115-w7">vil</w>
+        <w normalised="noch" tag="ADV" xml:id="d1083_3-u115-w8">no</w>
+        <pause xml:id="d1083_3-u115-w9"/>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u115-w10">die</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_103" xml:id="d1083_3-u116" who="person_db#ZHel1083">
+        <w normalised="den" tag="ART" xml:id="d1083_3-u116-w1">de</w>
+        <w normalised="hass" tag="NN" xml:id="d1083_3-u116-w2">hass</w>
+        <w normalised="gehabt" tag="VAPP" xml:id="d1083_3-u116-w3">ghaa</w>
+        <w normalised="die" tag="PDAT" xml:id="d1083_3-u116-w4">die</w>
+        <w normalised="ablehnung" tag="NN" xml:id="d1083_3-u116-w5">abläänig</w>
+        <w normalised="nicht" tag="PTKNEG" xml:id="d1083_3-u116-w6">nöd</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_104" xml:id="d1083_3-u117" who="person_db#ZHel1083">
+        <w normalised="aber" tag="KON" xml:id="d1083_3-u117-w1">aber</w>
+        <w normalised="eine" tag="ART" xml:id="d1083_3-u117-w2">e</w>
+        <w normalised="zeit" tag="NN" xml:id="d1083_3-u117-w3">ziit</w>
+        <w normalised="lang" tag="ADJD" xml:id="d1083_3-u117-w4">lang</w>
+        <w normalised="sind wir" tag="PPER" xml:id="d1083_3-u117-w5">simmir</w>
+        <w normalised="schweizer" tag="ADJA" xml:id="d1083_3-u117-w6">schwiizer</w>
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u117-w7">ja</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_105" xml:id="d1083_3-u118" who="person_db#ZHel1083">
+        <w normalised="ausserordentlich" tag="ADV" xml:id="d1083_3-u118-w1">usserordentlich</w>
+        <w normalised="gerne" tag="ADJD" xml:id="d1083_3-u118-w2">gäärn</w>
+        <w normalised="gesehen" tag="VVPP" xml:id="d1083_3-u118-w3">gseegi</w>
+        <w normalised="worden" tag="VAPP" xml:id="d1083_3-u118-w4">woorde</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_106" xml:id="d1083_3-u119" who="person_db#ZHel1083">
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u119-w1">ich</w>
+        <w normalised="bin" tag="VAFIN" xml:id="d1083_3-u119-w2">bin</w>
+        <w normalised="einmal" tag="ADV" xml:id="d1083_3-u119-w3">emaal</w>
+        <w normalised="im" tag="APPRART" xml:id="d1083_3-u119-w4">im</w>
+        <w normalised="libanon" tag="NN" xml:id="d1083_3-u119-w5">libanon</w>
+        <w normalised="noch" tag="ADV" xml:id="d1083_3-u119-w6">no</w>
+        <w normalised="in den" tag="APPR" xml:id="d1083_3-u119-w7">in</w>
+        <w normalised="ferien" tag="NN" xml:id="d1083_3-u119-w8">färie</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u119-w9">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_107" xml:id="d1083_3-u120" who="person_db#ZHel1083">
+        <w normalised="weil" tag="KOUS" xml:id="d1083_3-u120-w1">wil</w>
+        <w normalised="das" tag="PPER" xml:id="d1083_3-u120-w2">s</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u120-w3">hät</w>
+        <w normalised="einfach" tag="ADV" xml:id="d1083_3-u120-w4">äifach</w>
+        <w normalised="niener" tag="ADV" xml:id="d1083_3-u120-w5">nienet</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_108" xml:id="d1083_3-u121" who="person_db#ZHel1083">
+        <w normalised="sonne" tag="NN" xml:id="d1083_3-u121-w1">sune</w>
+        <w normalised="gehabt" tag="VAPP" xml:id="d1083_3-u121-w2">ghaa</w>
+        <w normalised="da" tag="ADV" xml:id="d1083_3-u121-w3">da</w>
+        <w normalised="bin" tag="VAFIN" xml:id="d1083_3-u121-w4">bin</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u121-w5">ich</w>
+        <w normalised="im" tag="APPRART" xml:id="d1083_3-u121-w6">im</w>
+        <w normalised="herbst" tag="NN" xml:id="d1083_3-u121-w7">härbscht</w>
+        <w normalised="einmal" tag="ADV" xml:id="d1083_3-u121-w8">emaal</w>
+        <w normalised="noch" tag="ADV" xml:id="d1083_3-u121-w9">no</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_109" xml:id="d1083_3-u122" who="person_db#ZHel1083">
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u122-w1">da</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u122-w2">han</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u122-w3">ich</w>
+        <w normalised="gesagt" tag="VVPP" xml:id="d1083_3-u122-w4">gsäit</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u122-w5">ich</w>
+        <w normalised="halte" tag="VVFIN" xml:id="d1083_3-u122-w6">halti</w>
+        <w normalised="das" tag="PPER" xml:id="d1083_3-u122-w7">s</w>
+        <w normalised="nicht" tag="PTKNEG" xml:id="d1083_3-u122-w8">nid</w>
+        <w normalised="aus" tag="PTKVZ" xml:id="d1083_3-u122-w9">uus</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_110" xml:id="d1083_3-u123" who="person_db#ZHel1083">
+        <w normalised="bin" tag="VAFIN" xml:id="d1083_3-u123-w1">bin</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u123-w2">ich</w>
+        <w normalised="auf" tag="APPR" xml:id="d1083_3-u123-w3">uf</w>
+        <vocal>
+          <desc xml:id="d1083_3-u123-w4">ehm</desc>
+        </vocal>
+        <w normalised="beiruten" tag="VVPP" xml:id="d1083_3-u123-w5">bäirut</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_111" xml:id="d1083_3-u124" who="person_db#ZHel1083">
+        <vocal>
+          <desc xml:id="d1083_3-u124-w1">ehm</desc>
+        </vocal>
+        <del type="truncation" xml:id="d1083_3-u124-w2">bäi/</del>
+        <w normalised="beiruten" tag="VVPP" xml:id="d1083_3-u124-w3">bäirut</w>
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u124-w4">ja</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_112" xml:id="d1083_3-u125" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u125-w1">und</w>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u125-w2">deete</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u125-w3">isch</w>
+        <w normalised="gerade" tag="ADV" xml:id="d1083_3-u125-w4">grad</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u125-w5">die</w>
+        <w normalised="zeit" tag="NN" xml:id="d1083_3-u125-w6">ziit</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u125-w7">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_113" xml:id="d1083_3-u126" who="person_db#ZHel1083">
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u126-w1">wo</w>
+        <w normalised="das" tag="ART" xml:id="d1083_3-u126-w2">s</w>
+        <w normalised="neue" tag="ADJA" xml:id="d1083_3-u126-w3">nöi</w>
+        <w normalised="da" tag="ADV" xml:id="d1083_3-u126-w4">do</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u126-w5">isch</w>
+        <w normalised="gerade" tag="ADV" xml:id="d1083_3-u126-w6">grad</w>
+        <w normalised="den" tag="ART" xml:id="d1083_3-u126-w7">de</w>
+        <w normalised="kanal" tag="NN" xml:id="d1083_3-u126-w8">kanaal</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u126-w9">dänn</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_114" xml:id="d1083_3-u127" who="person_db#ZHel1083">
+        <w normalised="übergegeben" tag="VVPP" xml:id="d1083_3-u127-w1">überggää</w>
+        <w normalised="worden" tag="VAPP" xml:id="d1083_3-u127-w2">woorde</w>
+        <w normalised="von" tag="APPR" xml:id="d1083_3-u127-w3">vo</w>
+        <w normalised="den" tag="ART" xml:id="d1083_3-u127-w4">de</w>
+        <w normalised="franzosen" tag="NN" xml:id="d1083_3-u127-w5">franzoose</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_115" xml:id="d1083_3-u128" who="person_db#ZHel1083">
+        <w normalised="der" tag="ART" xml:id="d1083_3-u128-w1">de</w>
+        <w normalised="suezkanal" tag="NN" xml:id="d1083_3-u128-w2">suezkanaal</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_115" xml:id="d1083_3-u129" who="interviewer">
+        <w normalised="der" tag="ART" xml:id="d1083_3-u129-w1">de</w>
+        <w normalised="suezkanal" tag="NN" xml:id="d1083_3-u129-w2">suezkanaal</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_116" xml:id="d1083_3-u130" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u130-w1">und</w>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u130-w2">die</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u130-w3">händ</w>
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u130-w4">aso</w>
+        <w normalised="das" tag="ADV" xml:id="d1083_3-u130-w5">da</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u130-w6">hät</w>
+        <w normalised="das" tag="ART" xml:id="d1083_3-u130-w7">s</w>
+        <w normalised="ganze" tag="ADJA" xml:id="d1083_3-u130-w8">ganzi</w>
+        <w normalised="häuser" tag="NN" xml:id="d1083_3-u130-w9">hüüser</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_117" xml:id="d1083_3-u131" who="person_db#ZHel1083">
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u131-w1">wo</w>
+        <w normalised="es" tag="ART" xml:id="d1083_3-u131-w2">s</w>
+        <w normalised="lauter" tag="NN" xml:id="d1083_3-u131-w3">luuter</w>
+        <w normalised="kacheln" tag="VVINF" xml:id="d1083_3-u131-w4">chachle</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u131-w5">hät</w>
+        <del type="truncation" xml:id="d1083_3-u131-w6">druu/</del>
+        <w normalised="darauf" tag="PAV" xml:id="d1083_3-u131-w7">druf</w>
+        <vocal>
+          <desc xml:id="d1083_3-u131-w8">ehm</desc>
+        </vocal>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_118" xml:id="d1083_3-u132" who="person_db#ZHel1083">
+        <w normalised="dann" tag="ART" xml:id="d1083_3-u132-w1">de</w>
+        <vocal>
+          <desc xml:id="d1083_3-u132-w2">ehm</desc>
+        </vocal>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_119" xml:id="d1083_3-u133" who="person_db#ZHel1083">
+        <w normalised="wie" tag="KOKOM" xml:id="d1083_3-u133-w1">wi</w>
+        <w normalised="heisst" tag="VVFIN" xml:id="d1083_3-u133-w2">häisst</w>
+        <w normalised="er" tag="PPER" xml:id="d1083_3-u133-w3">er</w>
+        <pause xml:id="d1083_3-u133-w4"/>
+        <w normalised="dich" tag="ADV" xml:id="d1083_3-u133-w5">dö</w>
+        <w normalised="goal" tag="ADJD" xml:id="d1083_3-u133-w6">gool</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_120" xml:id="d1083_3-u134" who="person_db#ZHel1083">
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u134-w1">di</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u134-w2">händ</w>
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u134-w3">aso</w>
+        <w normalised="für" tag="APPR" xml:id="d1083_3-u134-w4">für</w>
+        <w normalised="den" tag="ART" xml:id="d1083_3-u134-w5">de</w>
+        <w normalised="den" tag="NE" xml:id="d1083_3-u134-w6">dö</w>
+        <w normalised="goal" tag="ADJD" xml:id="d1083_3-u134-w7">gool</w>
+        <w normalised="wären" tag="VAFIN" xml:id="d1083_3-u134-w8">wäred</w>
+        <w normalised="s" tag="PPER" xml:id="d1083_3-u134-w9">s</w>
+        <w normalised="durch" tag="APPR" xml:id="d1083_3-u134-w10">duur</w>
+        <w normalised="das" tag="ART" xml:id="d1083_3-u134-w11">s</w>
+        <w normalised="feuer" tag="NN" xml:id="d1083_3-u134-w12">füür</w>
+        <w normalised="gegangen" tag="VVPP" xml:id="d1083_3-u134-w13">ggange</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_121" xml:id="d1083_3-u135" who="interviewer">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u135-w1">und</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u135-w2">sii</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u135-w3">sind</w>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u135-w4">deet</w>
+        <w normalised="sehr" tag="ADV" xml:id="d1083_3-u135-w5">seer</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_122" xml:id="d1083_3-u136" who="interviewer">
+        <w normalised="höflich" tag="ADJD" xml:id="d1083_3-u136-w1">höflich</w>
+        <w normalised="empfangen" tag="VVPP" xml:id="d1083_3-u136-w2">empfange</w>
+        <w normalised="worden" tag="VAPP" xml:id="d1083_3-u136-w3">woorde</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_123" xml:id="d1083_3-u137" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u137-w1">und</w>
+        <w normalised="wir" tag="PPER" xml:id="d1083_3-u137-w2">mir</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u137-w3">sind</w>
+        <w normalised="ja" tag="PTKANT" xml:id="d1083_3-u137-w4">jaa</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_123" xml:id="d1083_3-u138" who="interviewer">
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u138-w1">si</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u138-w2">händ</w>
+        <w normalised="gesagt" tag="VVPP" xml:id="d1083_3-u138-w3">gsäit</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u138-w4">das</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_124" xml:id="d1083_3-u139" who="person_db#ZHel1083">
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u139-w1">ich</w>
+        <w normalised="weiss" tag="VVFIN" xml:id="d1083_3-u139-w2">wäis</w>
+        <w normalised="wir" tag="PPER" xml:id="d1083_3-u139-w3">mir</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u139-w4">sind</w>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u139-w5">deet</w>
+        <w normalised="einmal" tag="ADV" xml:id="d1083_3-u139-w6">emaalet</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_125" xml:id="d1083_3-u140" who="person_db#ZHel1083">
+        <w normalised="auf" tag="APPR" xml:id="d1083_3-u140-w1">uf</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_126" xml:id="d1083_3-u141" who="person_db#ZHel1083">
+        <vocal>
+          <desc xml:id="d1083_3-u141-w1">ehm</desc>
+        </vocal>
+        <w normalised="nicht" tag="PTKNEG" xml:id="d1083_3-u141-w2">nüd</w>
+        <w normalised="deraus" tag="APPR" xml:id="d1083_3-u141-w3">türus</w>
+        <w normalised="dann" tag="ART" xml:id="d1083_3-u141-w4">dä</w>
+        <w normalised="vorher" tag="ADV" xml:id="d1083_3-u141-w5">vorhär</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u141-w6">das</w>
+        <w normalised="mit" tag="APPR" xml:id="d1083_3-u141-w7">mit</w>
+        <w normalised="deren" tag="ART" xml:id="d1083_3-u141-w8">dären</w>
+        <w normalised="insel" tag="NN" xml:id="d1083_3-u141-w9">insle</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_127" xml:id="d1083_3-u142" who="person_db#ZHel1083">
+        <w normalised="wo" tag="KOUS" xml:id="d1083_3-u142-w1">wo</w>
+        <w normalised="es" tag="PPER" xml:id="d1083_3-u142-w2">s</w>
+        <del type="truncation" xml:id="d1083_3-u142-w3">ö/</del>
+        <w normalised="wo" tag="PWS" xml:id="d1083_3-u142-w4">wo</w>
+        <w normalised="es" tag="PPER" xml:id="d1083_3-u142-w5">s</w>
+        <w normalised="auch" tag="ART" xml:id="d1083_3-u142-w6">ä</w>
+        <w normalised="immer" tag="ADV" xml:id="d1083_3-u142-w7">immer</w>
+        <w normalised="reden" tag="VVFIN" xml:id="d1083_3-u142-w8">reded</w>
+        <w normalised="davon" tag="PAV" xml:id="d1083_3-u142-w9">devoo</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_128" xml:id="d1083_3-u143" who="interviewer">
+        <w normalised="zuperen" tag="VVINF" xml:id="d1083_3-u143-w1">züpere</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_129" xml:id="d1083_3-u144" who="person_db#ZHel1083">
+        <w normalised="was" tag="PWS" xml:id="d1083_3-u144-w1">was</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u144-w2">händ</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u144-w3">si</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_129" xml:id="d1083_3-u145" who="interviewer">
+        <w normalised="zeuper" tag="VVINF" xml:id="d1083_3-u145-w1">züüpere</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_130" xml:id="d1083_3-u146" who="person_db#ZHel1083">
+        <w normalised="zeu" tag="ITJ" xml:id="d1083_3-u146-w1">züü</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_130" xml:id="d1083_3-u147" who="interviewer">
+        <w normalised="zeuper" tag="VVINF" xml:id="d1083_3-u147-w1">züüpere</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_131" xml:id="d1083_3-u148" who="person_db#ZHel1083">
+        <vocal>
+          <desc xml:id="d1083_3-u148-w1">ehm</desc>
+        </vocal>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u148-w2">das</w>
+        <w normalised="wäre" tag="VAFIN" xml:id="d1083_3-u148-w3">wäär</w>
+        <w normalised="ja" tag="ADV" xml:id="d1083_3-u148-w4">ja</w>
+        <w normalised="einen" tag="ART" xml:id="d1083_3-u148-w5">en</w>
+        <w normalised="insel" tag="NN" xml:id="d1083_3-u148-w6">insle</w>
+        <w normalised="nein" tag="PTKANT" xml:id="d1083_3-u148-w7">näi</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_131" xml:id="d1083_3-u149" who="interviewer">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u149-w1">ja</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_132" xml:id="d1083_3-u150" who="person_db#ZHel1083">
+        <w normalised="nein" tag="PTKANT" xml:id="d1083_3-u150-w1">näi</w>
+        <del type="truncation" xml:id="d1083_3-u150-w2">s/</del>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u150-w3">die</w>
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u150-w4">wo</w>
+        <w normalised="noch" tag="ADV" xml:id="d1083_3-u150-w5">no</w>
+        <w normalised="klein" tag="ADV" xml:id="d1083_3-u150-w6">chli</w>
+        <w normalised="nachher" tag="ADV" xml:id="d1083_3-u150-w7">neecher</w>
+        <w normalised="zu" tag="APPR" xml:id="d1083_3-u150-w8">zue</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u150-w9">ischt</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_133" xml:id="d1083_3-u151" who="person_db#ZHel1083">
+        <w normalised="bei" tag="APPR" xml:id="d1083_3-u151-w1">bii</w>
+        <w normalised="beiruten" tag="NN" xml:id="d1083_3-u151-w2">bäirut</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_134" xml:id="d1083_3-u152" who="person_db#ZHel1083">
+        <del type="truncation" xml:id="d1083_3-u152-w1">d/</del>
+        <w normalised="deraus" tag="NE" xml:id="d1083_3-u152-w2">türus</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u152-w3">isch</w>
+        <w normalised="ja" tag="ADV" xml:id="d1083_3-u152-w4">ja</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u152-w5">d</w>
+        <w normalised="grenze" tag="NN" xml:id="d1083_3-u152-w6">gränze</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_135" xml:id="d1083_3-u153" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u153-w1">und</w>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u153-w2">deete</w>
+        <w normalised="das" tag="ART" xml:id="d1083_3-u153-w3">s</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u153-w4">isch</w>
+        <vocal>
+          <desc xml:id="d1083_3-u153-w5">ehm</desc>
+        </vocal>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u153-w6">isch</w>
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u153-w7">also</w>
+        <del type="truncation" xml:id="d1083_3-u153-w8">o/</del>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_135" xml:id="d1083_3-u154" who="interviewer">
+        <w normalised="mh" tag="ITJ" xml:id="d1083_3-u154-w1">mhm</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_136" xml:id="d1083_3-u155" who="person_db#ZHel1083">
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u155-w1">deet</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u155-w2">isch</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u155-w3">dänn</w>
+        <w normalised="unserer" tag="PPER" xml:id="d1083_3-u155-w4">öisere</w>
+        <w normalised="führer" tag="ADJD" xml:id="d1083_3-u155-w5">füerer</w>
+        <w normalised="mitgekommen" tag="VVPP" xml:id="d1083_3-u155-w6">mitchoo</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u155-w7">und</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u155-w8">hät</w>
+        <w normalised="gesagt" tag="VVPP" xml:id="d1083_3-u155-w9">gsäit</w>
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u155-w10">aso</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_137" xml:id="d1083_3-u156" who="person_db#ZHel1083">
+        <w normalised="genommen" tag="ADJD" xml:id="d1083_3-u156-w1">gnaad</w>
+        <w normalised="auch" tag="PPER" xml:id="d1083_3-u156-w2">öi</w>
+        <w normalised="gott" tag="VVFIN" xml:id="d1083_3-u156-w3">got</w>
+        <w normalised="nehmt" tag="VVFIN" xml:id="d1083_3-u156-w4">nämed</w>
+        <w normalised="man" tag="PPER" xml:id="d1083_3-u156-w5">mer</w>
+        <w normalised="kann" tag="PIAT" xml:id="d1083_3-u156-w6">kän</w>
+        <w normalised="keinen" tag="PIAT" xml:id="d1083_3-u156-w7">käin</w>
+        <w normalised="apparate" tag="NN" xml:id="d1083_3-u156-w8">apparaat</w>
+        <w normalised="fürhin" tag="PTKVZ" xml:id="d1083_3-u156-w9">füre</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_138" xml:id="d1083_3-u157" who="person_db#ZHel1083">
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u157-w1">das</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u157-w2">händ</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u157-w3">s</w>
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u157-w4">aso</w>
+        <w normalised="nicht" tag="PTKNEG" xml:id="d1083_3-u157-w5">nüd</w>
+        <w normalised="dürfen" tag="VVINF" xml:id="d1083_3-u157-w6">törfe</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_139" xml:id="d1083_3-u158" who="person_db#ZHel1083">
+        <w normalised="man" tag="PIS" xml:id="d1083_3-u158-w1">me</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u158-w2">hät</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u158-w3">dänn</w>
+        <w normalised="gerade" tag="ADV" xml:id="d1083_3-u158-w4">grad</w>
+        <w normalised="auf" tag="APPR" xml:id="d1083_3-u158-w5">uf</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u158-w6">d</w>
+        <w normalised="galanehen" tag="NN" xml:id="d1083_3-u158-w7">golaanhöen</w>
+        <w normalised="aufgesehen" tag="VVINF" xml:id="d1083_3-u158-w8">ufegsee</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u158-w9">und</w>
+        <w normalised="so" tag="ADV" xml:id="d1083_3-u158-w10">soo</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_140" xml:id="d1083_3-u159" who="person_db#ZHel1083">
+        <del type="truncation" xml:id="d1083_3-u159-w1">ä/</del>
+        <w normalised="durchaus" tag="ADV" xml:id="d1083_3-u159-w2">dürus</w>
+        <w normalised="sein" tag="VAFIN" xml:id="d1083_3-u159-w3">säida</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_141" xml:id="d1083_3-u160" who="person_db#ZHel1083">
+        <w normalised="sidõõ" tag="VAFIN+" xml:id="d1083_3-u160-w1">sidõõ</w>
+        <w normalised="eben" tag="ADV" xml:id="d1083_3-u160-w2">ebe</w>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u160-w3">deet</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_141" xml:id="d1083_3-u161" who="interviewer">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u161-w1">ja</w>
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u161-w2">ja</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_142" xml:id="d1083_3-u162" who="person_db#ZHel1083">
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u162-w1">deet</w>
+        <w normalised="sind wir" tag="VAFIN+" xml:id="d1083_3-u162-w2">simmir</w>
+        <w normalised="einmal" tag="ADV" xml:id="d1083_3-u162-w3">emaal</w>
+        <w normalised="extra" tag="ADV" xml:id="d1083_3-u162-w4">äggstra</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u162-w5">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_143" xml:id="d1083_3-u163" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u163-w1">und</w>
+        <w normalised="dann" tag="ART" xml:id="d1083_3-u163-w2">dä</w>
+        <w normalised="sind wir" tag="VAFIN+" xml:id="d1083_3-u163-w3">simmir</w>
+        <w normalised="aushin" tag="ADV" xml:id="d1083_3-u163-w4">use</w>
+        <w normalised="mir" tag="PPER" xml:id="d1083_3-u163-w5">mir</w>
+        <del type="truncation" xml:id="d1083_3-u163-w6">si/</del>
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u163-w7">aso</w>
+        <w normalised="da" tag="ADV" xml:id="d1083_3-u163-w8">do</w>
+        <w normalised="bin" tag="VAFIN" xml:id="d1083_3-u163-w9">bin</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u163-w10">ich</w>
+        <w normalised="noch" tag="ADV" xml:id="d1083_3-u163-w11">no</w>
+        <w normalised="gegangen" tag="VVPP" xml:id="d1083_3-u163-w12">ggange</w>
+        <w normalised="nicht" tag="PTKNEG" xml:id="d1083_3-u163-w13">nüd</w>
+        <w normalised="mit" tag="APPR" xml:id="d1083_3-u163-w14">mit</w>
+        <w normalised="der" tag="ART" xml:id="d1083_3-u163-w15">de</w>
+        <w normalised="gesellschaft" tag="NN" xml:id="d1083_3-u163-w16">gselschaft</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_144" xml:id="d1083_3-u164" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u164-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u164-w2">denn</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u164-w3">sind</w>
+        <w normalised="sofort" tag="ADV" xml:id="d1083_3-u164-w4">sofort</w>
+        <w normalised="studenten" tag="NN" xml:id="d1083_3-u164-w5">schtudänte</w>
+        <w normalised="kommen" tag="VVPP" xml:id="d1083_3-u164-w6">choo</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_145" xml:id="d1083_3-u165" who="person_db#ZHel1083">
+        <del type="truncation" xml:id="d1083_3-u165-w1">d/</del>
+        <w normalised="man" tag="PPER" xml:id="d1083_3-u165-w2">mer</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u165-w3">isch</w>
+        <w normalised="mit" tag="APPR" xml:id="d1083_3-u165-w4">mit</w>
+        <w normalised="englisch" tag="NN" xml:id="d1083_3-u165-w5">änglisch</w>
+        <w normalised="und" tag="KON" xml:id="d1083_3-u165-w6">und</w>
+        <w normalised="französisch" tag="ADJA" xml:id="d1083_3-u165-w7">französisch</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u165-w8">isch</w>
+        <w normalised="meine" tag="PIS" xml:id="d1083_3-u165-w9">me</w>
+        <w normalised="prima" tag="ADJD" xml:id="d1083_3-u165-w10">priima</w>
+        <w normalised="durchhinkommen" tag="VVPP" xml:id="d1083_3-u165-w11">durechoo</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_146" xml:id="d1083_3-u166" who="person_db#ZHel1083">
+        <w normalised="sweien" tag="ADV" xml:id="d1083_3-u166-w1">swäie</w>
+        <w normalised="le" tag="VVINF" xml:id="d1083_3-u166-w2">le</w>
+        <w normalised="biẽwöhne" tag="KOUS" xml:id="d1083_3-u166-w3">biẽwönü</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u166-w4">si</w>
+        <del type="truncation" xml:id="d1083_3-u166-w5">hän/</del>
+        <w normalised="sofort" tag="ADV" xml:id="d1083_3-u166-w6">sofort</w>
+        <w normalised="sind wir" tag="PPER" xml:id="d1083_3-u166-w7">simmir</w>
+        <w normalised="das" tag="ADV" xml:id="d1083_3-u166-w8">daa</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_147" xml:id="d1083_3-u167" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u167-w1">und</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u167-w2">si</w>
+        <w normalised="sind" tag="VAFIN" xml:id="d1083_3-u167-w3">sind</w>
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u167-w4">also</w>
+        <w normalised="ganz" tag="ADV" xml:id="d1083_3-u167-w5">ganz</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_148" xml:id="d1083_3-u168" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u168-w1">und</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u168-w2">ich</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u168-w3">han</w>
+        <w normalised="auch" tag="ADV" xml:id="d1083_3-u168-w4">au</w>
+        <w normalised="müssen" tag="VMPP" xml:id="d1083_3-u168-w5">müese</w>
+        <w normalised="neisswo" tag="ADV" xml:id="d1083_3-u168-w6">nöimet</w>
+        <w normalised="noch" tag="ADV" xml:id="d1083_3-u168-w7">na</w>
+        <w normalised="gan" tag="PTKINF" xml:id="d1083_3-u168-w8">go</w>
+        <w normalised="den" tag="ART" xml:id="d1083_3-u168-w9">de</w>
+        <w normalised="pass" tag="NN" xml:id="d1083_3-u168-w10">pass</w>
+        <w normalised="holen" tag="VVINF" xml:id="d1083_3-u168-w11">hole</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_149" xml:id="d1083_3-u169" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u169-w1">und</w>
+        <w normalised="das" tag="ADV" xml:id="d1083_3-u169-w2">da</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u169-w3">isch</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u169-w4">das</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u169-w5">isch</w>
+        <w normalised="ein" tag="ART" xml:id="d1083_3-u169-w6">e</w>
+        <w normalised="palästinenserin" tag="NN" xml:id="d1083_3-u169-w7">paleschtinänseri</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u169-w8">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_150" xml:id="d1083_3-u170" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u170-w1">und</w>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u170-w2">die</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u170-w3">isch</w>
+        <w normalised="ganz" tag="ADV" xml:id="d1083_3-u170-w4">ganz</w>
+        <w normalised="reizend" tag="ADJD" xml:id="d1083_3-u170-w5">räizend</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u170-w6">gsii</w>
+        <w normalised="bei" tag="APPR" xml:id="d1083_3-u170-w7">bi</w>
+        <w normalised="mir" tag="PPER" xml:id="d1083_3-u170-w8">mir</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_151" xml:id="d1083_3-u171" who="person_db#ZHel1083">
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u171-w1">die</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u171-w2">hät</w>
+        <w normalised="mit" tag="APPR" xml:id="d1083_3-u171-w3">mit</w>
+        <w normalised="mir" tag="PPER" xml:id="d1083_3-u171-w4">mir</w>
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u171-w5">die</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u171-w6">hät</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_152" xml:id="d1083_3-u172" who="person_db#ZHel1083">
+        <w normalised="eine" tag="ART" xml:id="d1083_3-u172-w1">e</w>
+        <w normalised="tochter" tag="NN" xml:id="d1083_3-u172-w2">tochter</w>
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u172-w3">wo</w>
+        <w normalised="in" tag="APPR" xml:id="d1083_3-u172-w4">i</w>
+        <w normalised="der" tag="ART" xml:id="d1083_3-u172-w5">der</w>
+        <w normalised="schweiz" tag="NE" xml:id="d1083_3-u172-w6">schwiiz</w>
+        <w normalised="verheiratet" tag="VVPP" xml:id="d1083_3-u172-w7">verhüraatet</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u172-w8">isch</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_153" xml:id="d1083_3-u173" who="person_db#ZHel1083">
+        <w normalised="die" tag="PDS" xml:id="d1083_3-u173-w1">die</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u173-w2">hät</w>
+        <w normalised="noch" tag="ADV" xml:id="d1083_3-u173-w3">no</w>
+        <w normalised="klein" tag="ADV" xml:id="d1083_3-u173-w4">chli</w>
+        <w normalised="schweizerdeutsch" tag="NN" xml:id="d1083_3-u173-w5">schwiizertütsch</w>
+        <w normalised="können" tag="VMINF" xml:id="d1083_3-u173-w6">chöne</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_154" xml:id="d1083_3-u174" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u174-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u174-w2">dänn</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u174-w3">hät</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u174-w4">si</w>
+        <w normalised="mir" tag="PPER" xml:id="d1083_3-u174-w5">mir</w>
+        <w normalised="gezeigt" tag="VVPP" xml:id="d1083_3-u174-w6">zäiget</w>
+        <w normalised="wo" tag="PRELS" xml:id="d1083_3-u174-w7">wo</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u174-w8">das</w>
+        <vocal>
+          <desc xml:id="d1083_3-u174-w9">ehm</desc>
+        </vocal>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_155" xml:id="d1083_3-u175" who="person_db#ZHel1083">
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u175-w1">das</w>
+        <vocal>
+          <desc xml:id="d1083_3-u175-w2">ehm</desc>
+        </vocal>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_156" xml:id="d1083_3-u176" who="person_db#ZHel1083">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u176-w1">jaa</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u176-w2">das</w>
+        <w normalised="büro" tag="VVINF" xml:id="d1083_3-u176-w3">büroo</w>
+        <w normalised="sei" tag="VAFIN" xml:id="d1083_3-u176-w4">seig</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_157" xml:id="d1083_3-u177" who="person_db#ZHel1083">
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u177-w1">n</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u177-w2">isch</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u177-w3">si</w>
+        <w normalised="mit" tag="APPR" xml:id="d1083_3-u177-w4">mit</w>
+        <w normalised="mir" tag="PPER" xml:id="d1083_3-u177-w5">mir</w>
+        <w normalised="gekommen" tag="VVPP" xml:id="d1083_3-u177-w6">choo</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_158" xml:id="d1083_3-u178" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u178-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u178-w2">dänn</w>
+        <w normalised="bin" tag="VAFIN" xml:id="d1083_3-u178-w3">bin</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u178-w4">ich</w>
+        <w normalised="in" tag="APPR" xml:id="d1083_3-u178-w5">i</w>
+        <w normalised="dem" tag="PDAT" xml:id="d1083_3-u178-w6">dem</w>
+        <w normalised="haus" tag="NN" xml:id="d1083_3-u178-w7">huus</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u178-w8">gsii</w>
+        <w normalised="einen" tag="PPER" xml:id="d1083_3-u178-w9">ine</w>
+        <w normalised="von" tag="APPR" xml:id="d1083_3-u178-w10">von</w>
+        <w normalised="ihren" tag="PPER" xml:id="d1083_3-u178-w11">ire</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_159" xml:id="d1083_3-u179" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u179-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u179-w2">dänn</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u179-w3">han</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u179-w4">ich</w>
+        <w normalised="gefunden" tag="VVPP" xml:id="d1083_3-u179-w5">gfunde</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u179-w6">das</w>
+        <w normalised="sei" tag="VAFIN" xml:id="d1083_3-u179-w7">seig</w>
+        <w normalised="sehr" tag="ADV" xml:id="d1083_3-u179-w8">seer</w>
+        <w normalised="schön" tag="ADJD" xml:id="d1083_3-u179-w9">schöön</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_160" xml:id="d1083_3-u180" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u180-w1">und</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u180-w2">dänn</w>
+        <w normalised="hat" tag="VAFIN" xml:id="d1083_3-u180-w3">hät</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u180-w4">si</w>
+        <w normalised="gesagt" tag="VVPP" xml:id="d1083_3-u180-w5">gsäit</w>
+        <w normalised="ja" tag="PTKANT" xml:id="d1083_3-u180-w6">jaa</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_161" xml:id="d1083_3-u181" who="person_db#ZHel1083">
+        <del type="truncation" xml:id="d1083_3-u181-w1">i/</del>
+        <w normalised="ihr" tag="PPOSAT" xml:id="d1083_3-u181-w2">ires</w>
+        <w normalised="alt" tag="ADJA" xml:id="d1083_3-u181-w3">alt</w>
+        <w normalised="sei" tag="VAFIN" xml:id="d1083_3-u181-w4">seig</w>
+        <w normalised="schöner" tag="ADJD" xml:id="d1083_3-u181-w5">schööner</w>
+        <del type="truncation" xml:id="d1083_3-u181-w6">wor/</del>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u181-w7">gsii</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_162" xml:id="d1083_3-u182" who="person_db#ZHel1083">
+        <w normalised="aber" tag="KON" xml:id="d1083_3-u182-w1">aber</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u182-w2">das</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u182-w3">heig</w>
+        <w normalised="man" tag="PPER" xml:id="d1083_3-u182-w4">mer</w>
+        <w normalised="einen" tag="PPER" xml:id="d1083_3-u182-w5">inen</w>
+        <w normalised="einfach" tag="ADV" xml:id="d1083_3-u182-w6">äifach</w>
+        <w normalised="weggenommen" tag="VVPP" xml:id="d1083_3-u182-w7">wäggnoo</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_163" xml:id="d1083_3-u183" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u183-w1">und</w>
+        <w normalised="dort" tag="ADV" xml:id="d1083_3-u183-w2">deete</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u183-w3">han</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u183-w4">ich</w>
+        <w normalised="ein klein" tag="ADV" xml:id="d1083_3-u183-w5">echli</w>
+        <w normalised="erlebt" tag="VVPP" xml:id="d1083_3-u183-w6">erläbt</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_164" xml:id="d1083_3-u184" who="person_db#ZHel1083">
+        <w normalised="dass" tag="KOUS" xml:id="d1083_3-u184-w1">dass</w>
+        <w normalised="es" tag="PPER" xml:id="d1083_3-u184-w2">es</w>
+        <w normalised="nicht" tag="PTKNEG" xml:id="d1083_3-u184-w3">nid</w>
+        <w normalised="nur" tag="ADV" xml:id="d1083_3-u184-w4">nu</w>
+        <w normalised="recht" tag="ADJD" xml:id="d1083_3-u184-w5">rächt</w>
+        <w normalised="gewesen" tag="VAPP" xml:id="d1083_3-u184-w6">gsii</w>
+        <w normalised="ist" tag="VAFIN" xml:id="d1083_3-u184-w7">ischt</w>
+        <w normalised="dann" tag="ADV" xml:id="d1083_3-u184-w8">dänn</w>
+        <w normalised="das" tag="PDS" xml:id="d1083_3-u184-w9">das</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_165" xml:id="d1083_3-u185" who="person_db#ZHel1083">
+        <vocal>
+          <desc xml:id="d1083_3-u185-w1">ehm</desc>
+        </vocal>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u185-w2">d</w>
+        <w normalised="israelein" tag="NN" xml:id="d1083_3-u185-w3">israeeli</w>
+        <w normalised="gemacht" tag="VVPP" xml:id="d1083_3-u185-w4">gmacht</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u185-w5">händ</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_166" xml:id="d1083_3-u186" who="person_db#ZHel1083">
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u186-w1">si</w>
+        <w normalised="haben" tag="VAFIN" xml:id="d1083_3-u186-w2">händ</w>
+        <w normalised="wirklich" tag="ADV" xml:id="d1083_3-u186-w3">würklich</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u186-w4">d</w>
+        <w normalised="palästinensern" tag="NN" xml:id="d1083_3-u186-w5">paleschtinänser</w>
+        <w normalised="einfach" tag="ADV" xml:id="d1083_3-u186-w6">äifach</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_167" xml:id="d1083_3-u187" who="person_db#ZHel1083">
+        <w normalised="aus" tag="APPR" xml:id="d1083_3-u187-w1">us</w>
+        <w normalised="ihren" tag="PPOSAT" xml:id="d1083_3-u187-w2">irne</w>
+        <w normalised="dings" tag="NN" xml:id="d1083_3-u187-w3">dings</w>
+        <w normalised="aushingehien" tag="VVPP" xml:id="d1083_3-u187-w4">usegheit</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_168" xml:id="d1083_3-u188" who="person_db#ZHel1083">
+        <w normalised="und" tag="KON" xml:id="d1083_3-u188-w1">und</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u188-w2">ich</w>
+        <w normalised="bin" tag="VAFIN" xml:id="d1083_3-u188-w3">bi</w>
+        <w normalised="froh" tag="ADJD" xml:id="d1083_3-u188-w4">froo</w>
+        <w normalised="habe" tag="VAFIN" xml:id="d1083_3-u188-w5">han</w>
+        <w normalised="ich" tag="PPER" xml:id="d1083_3-u188-w6">ich</w>
+        <w normalised="die" tag="ART" xml:id="d1083_3-u188-w7">di</w>
+        <w normalised="selben" tag="PDAT" xml:id="d1083_3-u188-w8">säbe</w>
+        <w normalised="sachen" tag="NN" xml:id="d1083_3-u188-w9">sache</w>
+        <w normalised="auch" tag="ADV" xml:id="d1083_3-u188-w10">au</w>
+        <w normalised="gesehen" tag="VVPP" xml:id="d1083_3-u188-w11">gsee</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_169" xml:id="d1083_3-u189" who="person_db#ZHel1083">
+        <w normalised="ja" tag="ITJ" xml:id="d1083_3-u189-w1">jaa</w>
+        <w normalised="also" tag="ADV" xml:id="d1083_3-u189-w2">also</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_170" xml:id="d1083_3-u190" who="person_db#ZHel1083">
+        <w normalised="gewesen" tag="VVFIN" xml:id="d1083_3-u190-w1">gsend</w>
+        <w normalised="sie" tag="PPER" xml:id="d1083_3-u190-w2">si</w>
+        <w normalised="was" tag="PWS" xml:id="d1083_3-u190-w3">was</w>
+        <w normalised="einem" tag="PIS" xml:id="d1083_3-u190-w4">äim</w>
+        <w normalised="alles" tag="PIS" xml:id="d1083_3-u190-w5">ales</w>
+        <w normalised="immer" tag="ADV" xml:id="d1083_3-u190-w6">immer</w>
+        <w normalised="noch" tag="ADV" xml:id="d1083_3-u190-w7">no</w>
+        <w normalised="in den" tag="APPR" xml:id="d1083_3-u190-w8">in</w>
+        <w normalised="sinn" tag="NN" xml:id="d1083_3-u190-w9">sinn</w>
+        <w normalised="kommt" tag="VVFIN" xml:id="d1083_3-u190-w10">chunt</w>
+      </u>
+      <u start="media_pointers#d1083_3-TLI_170" xml:id="d1083_3-u191" who="interviewer">
+        <w normalised="danke" tag="VVINF" xml:id="d1083_3-u191-w1">tanke</w>
+        <w normalised="vielmals" tag="ADV" xml:id="d1083_3-u191-w2">vilmaal</w>
+        <w normalised="frau" tag="NN" xml:id="d1083_3-u191-w3">frau</w>
+        <w normalised="z***" tag="ADV" xml:id="d1083_3-u191-w4">z***</w>
+      </u>
+    </body>
+  </text>
+</TEI>

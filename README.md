@@ -39,6 +39,13 @@ The importer pre-processes the text-data so that it can used with the open-sourc
 
 ## Walk-through ArchiMob Importer
 
+<b>This section will explain what the importer does in detail in order to provide understanding of the individual steps</b>
+
+<b>First</b>, it is crucial to understand that DeepSpeech requires the following pre-processing of data in order for the Speech-to-Text engine to be trained:
+- Text-Data
+  - For training purposes, a CSV with the columns [filepath], [filesize], and [transcript] has to be created
+
+
 - The transcriptions of ArchiMob audio data is stored in XML files.
 - Below scripts extract the words for every seperate audio file and joins the strings to be outputted into a CSV.
 - There are seperate version for CH-words and DE-words
