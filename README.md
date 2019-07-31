@@ -43,7 +43,12 @@ The importer pre-processes the text-data so that it can used with the open-sourc
 
 <b>First</b>, it is crucial to understand that DeepSpeech requires the following pre-processing of data in order for the Speech-to-Text engine to be trained:
 - Text-Data
-  - For training purposes, a CSV with the columns [filepath], [filesize], and [transcript] has to be created
+  - For training purposes, a CSV with the columns [wav_filepath], [wav_filesize], and [Transcript] has to be created
+- Audio
+  - The audio has to be pre-processed in order to be used for training the DeepSpeech engine.
+  - Audio File Format: .wav
+  - Samplerate: 16kHz
+  - Bit pro Sample: 16bit
 
 
 - The transcriptions of ArchiMob audio data is stored in XML files.
