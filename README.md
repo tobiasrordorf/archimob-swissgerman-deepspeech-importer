@@ -52,17 +52,19 @@ The importer pre-processes the text-data so that it can used with the open-sourc
 
 <b>Walk-through</b>
 - The transcriptions of ArchiMob audio data is stored in XML files.
-1. If the folder ./audio exists the ArchiMob audio files are pre-processed:
-  <p>1.1 First, files are merged from subfolders into ./Pre_Processing_Files/audio_merged.</p>
-  <p>1.2 Next, the .wav files are pre-processed according to above format-specifications</p>
-2.  The CH and DE words are extracted from the XML file and joined to strings with the media-pointer ID (which matches the audio_filename)
-3. Next, duplicates are removed (duplicates exist in XML files when an audio file contains two speakers) to simplify training for DeepSpeech. (A list of the removed duplicates are available in ./Pre_Processing_Files/CSV_Merged/)
-4. Next, Zero values are dropped (audio files with silences contain zero values in the transcriptions)
-5. Next, the CSV Files of the XML packages (e.g. 1300, 1295) are merged into one file per language (DE/CH)
-5. Then, a CSV that contains [wav_filepath], [wav_filesize] of .wav files in ./Pre_Processing_Files/audio_processed_final/ is created
-6. Lastly, the merged transcripts and the CSV with filepaths and filesizes are merged
-7. Final output of the importer pipeline can be found in ./Final_Training_CSV_for_Deespeech/
+- If the folder ./audio exists the ArchiMob audio files are pre-processed:
+  - First, files are merged from subfolders into ./Pre_Processing_Files/audio_merged.
+  - 1.2 Next, the .wav files are pre-processed according to above format-specifications
+- The CH and DE words are extracted from the XML file and joined to strings with the media-pointer ID (which matches the audio_filename)
+- Next, duplicates are removed (duplicates exist in XML files when an audio file contains two speakers) to simplify training for DeepSpeech. (A list of the removed duplicates are available in ./Pre_Processing_Files/CSV_Merged/)
+- Next, Zero values are dropped (audio files with silences contain zero values in the transcriptions)
+- Next, the CSV Files of the XML packages (e.g. 1300, 1295) are merged into one file per language (DE/CH)
+- Then, a CSV that contains [wav_filepath], [wav_filesize] of .wav files in ./Pre_Processing_Files/audio_processed_final/ is created
+- Lastly, the merged transcripts and the CSV with filepaths and filesizes are merged
+- Final output of the importer pipeline can be found in ./Final_Training_CSV_for_Deespeech/
 
+
+<b> Please note that the full script that processes all ca. 70'000 .wav files can take a long time, because of audio pre-processing</b>
 
 ## About this project:
 
