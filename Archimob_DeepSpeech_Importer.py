@@ -1,15 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ## Extract words from XML into CSV for transcript matching
-
-# - The transcriptions of ArchiMob audio data is stored in XML files.
-# - Below scripts extract the words for every seperate audio file and joins the strings to be outputted into a CSV.
-# - There are seperate version for CH-words and DE-words
-# - Next, duplicates are removed (for exact duplicates the first one is kept; for not exact duplicates (multiple voices in one audio) the duplicates are removed completly
-# - Zero Values are dropped
-# - Lastly, CSV Files are merged per language
-# - This is the necessary preparation as the importer of ArchiMob for the training CSV for DeepSpeech
+## Extract words from XML into CSV for transcript matching, in preparation for DeepSpeech training CSV
+##
 
 #Imports
 import xml.etree.ElementTree as ET
@@ -26,6 +19,8 @@ from io import BytesIO
 from urllib.request import urlopen
 import shutil
 
+#Import Audio pre-processing function
+from change_sample_rate import pre_process_audio
 
 #Download XML Zip File of ArchiMob Corpus
 url = 'https://www.spur.uzh.ch/dam/jcr:9e63ee4b-42eb-4204-a869-53aa2042d57c/ArchiMob_Release1_160812.zip'
@@ -36,7 +31,6 @@ def download_and_extract_zip(url):
     with urlopen(url) as zipresp:
         with ZipFile(BytesIO(zipresp.read())) as zfile:
             zfile.extractall('./')
-
 
 download_and_extract_zip(url)
 
@@ -88,6 +82,36 @@ if not os.path.exists(path_DS_audio):
     else:
         print('Successfully created the directory %s' %path_DS_audio)
 
+#Audio pre-processing
+
+def merge_audiofiles_from_folders ():
+    path_audio = './audio_merged'
+    if not os.path.exists(path_audio):
+        try:
+            os.mkdir(path_audio)
+        except OSError:
+            print('Creation of directory %s failed' %path_audio)
+        else:
+            print('Successfully created the directory %s' %path_audio)
+
+    src = r'./audio'
+    dest = r'./audio_merged'
+
+    for path, subdirs, files in os.walk(src):
+        for name in files:
+            filename = os.path.join(path, name)
+            shutil.copy2(filename, dest)
+    print('Audio-Files-Merge complete, dir "audio_merged" created ')
+
+
+
+if os.path.isdir('./audio') is True:
+    merge_audiofiles_from_folders()
+    pre_process_audio()
+else:
+    print('No directory "audio" detected and therefore no audio-pre-processing initiated')
+    print('See Readme.md for more information on ArchiMob audio files')
+    next
 
 #Extracting DE and CH Texts from XML Files and saving the outputs per file in a csv
 
@@ -120,7 +144,6 @@ def extract(xml_file):
 
     de_data.to_csv(Path('./ArchiMob_Release1_160812/XML_Transcripts_DE', f'{xml_file.stem}_transcript_DE.csv'), header=True, index=False, encoding='utf-8-sig')
     ch_data.to_csv(Path('./ArchiMob_Release1_160812/XML_Transcripts_CH', f'{xml_file.stem}_transcript_CH.csv'), header=True, index=False, encoding='utf-8-sig')
-
 
 #Remove duplicates and drop zero values
 
@@ -172,14 +195,13 @@ def remove_duplicates_DE ():
     save_duplicates_DE.to_csv('./CSV_Merged/ArchiMob_Transcript_list_of_double IDs_DE.csv', header=True, index=False, encoding='utf-8-sig')
     print('Duplicates and zero values removed for DE-Files')
 
-
 #Merge CSV File per XML package to one file per language
 #This step is in preparation for the creation of the CSV File for the DeepSpeech Training
 
 def merge_ch ():
     df_combined_CH = pd.DataFrame()
 
-    for entry in glob ('./XML_Transcripts_CH/*.csv'):
+    for entry in glob ('./ArchiMob_Release1_160812/XML_Transcripts_CH/*.csv'):
         df = pd.read_csv(entry)
         df_combined_CH = df_combined_CH.append(df)
 
@@ -189,7 +211,7 @@ def merge_ch ():
 def merge_de ():
     df_combined_DE = pd.DataFrame()
 
-    for entry in glob ('./XML_Transcripts_DE/*.csv'):
+    for entry in glob ('./ArchiMob_Release1_160812/XML_Transcripts_DE/*.csv'):
         df = pd.read_csv(entry)
         df_combined_DE = df_combined_DE.append(df)
 
@@ -197,12 +219,12 @@ def merge_de ():
     print('All DE files merged')
 
 def create_DS_csv ():
-    print('Extracting Filepath and -size for ArchiMob Audio; expected duration approx. 5min')
+    print('Extracting Filepath and -size for ArchiMob Audio')
     #this function holds the code to extract the filepath and filesize of all audio in the respective directory
     data = pd.DataFrame(columns=['wav_filepath', 'wav_filesize'])
     df = pd.DataFrame(columns=['wav_filepath', 'wav_filesize'])
 
-    for entry in glob('./Final/*.wav'):
+    for entry in glob('./audio_processed_final/*.wav'):
         filepath = os.path.abspath(entry)
         filesize = os.path.getsize(entry)
         df['wav_filepath'] = [filepath]
@@ -257,17 +279,22 @@ merge_ch()
 merge_de()
 
 #This function creates a CSV file with the columns Filepath and Filesize for DS-Training
-if os.path.isdir('./audio') is True:
+if os.path.isdir('./audio_processed_final') is True:
     create_DS_csv()
 else:
-    print('WARNING: No folder "audio" with ArchiMob audio files detected, therefore no Transcript-Merge with Filepath&Filesize')
+    print('WARNING: No folder "audio_processed_final" with ArchiMob audio files detected, therefore no Transcript-Merge with Filepath&Filesize')
     print('See Readme.md for information on ArchiMob audio files')
     next
 
 #Merge the transcripts from the XML files with the DeepSpeech CSV
 #The DS-CSV offers filepaths and filesize of all audio files in the directory
-if os.path.isdir('./audio') is True:
+
+if os.path.isdir('./audio_processed_final') is True:
     merge_AM_transcripts('CH')
     merge_AM_transcripts('DE')
 else:
     next
+
+print('*** Finished ***')
+print('The preprocessing of Transcripts and Audio (if available) from ArchiMob is complete')
+print('The final CSV files for DeeSpeech training are stored in the folder: "Final_Training_CSV_for_Deespeech"')

@@ -39,7 +39,13 @@ The importer pre-processes the text-data so that it can used with the open-sourc
 
 ## Walk-through ArchiMob Importer
 
-
+- The transcriptions of ArchiMob audio data is stored in XML files.
+- Below scripts extract the words for every seperate audio file and joins the strings to be outputted into a CSV.
+- There are seperate version for CH-words and DE-words
+- Next, duplicates are removed (for exact duplicates the first one is kept; for not exact duplicates (multiple voices in one audio) the duplicates are removed completly
+- Zero Values are dropped
+- Lastly, CSV Files are merged per language
+- This is the necessary preparation as the importer of ArchiMob for the training CSV for DeepSpeech
 
 ## About this project:
 
