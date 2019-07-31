@@ -53,8 +53,8 @@ The importer pre-processes the text-data so that it can used with the open-sourc
 <b>Walk-through</b>
 - The transcriptions of ArchiMob audio data is stored in XML files.
 1. If the folder ./audio exists the ArchiMob audio files are pre-processed:
-  - First, files are merged from subfolders into ./Pre_Processing_Files/audio_merged.
-  - Next, the .wav files are pre-processed according to above format-specifications
+  1.1 First, files are merged from subfolders into ./Pre_Processing_Files/audio_merged.
+  1.2 Next, the .wav files are pre-processed according to above format-specifications
 2.  The CH and DE words are extracted from the XML file and joined to strings with the media-pointer ID (which matches the audio_filename)
 3. Next, duplicates are removed (duplicates exist in XML files when an audio file contains two speakers) to simplify training for DeepSpeech. (A list of the removed duplicates are available in ./Pre_Processing_Files/CSV_Merged/)
 4. Next, Zero values are dropped (audio files with silences contain zero values in the transcriptions)
