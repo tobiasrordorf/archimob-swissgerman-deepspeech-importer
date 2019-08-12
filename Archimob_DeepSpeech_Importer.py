@@ -131,7 +131,7 @@ else:
 def extract(xml_file):
     tree = ET.parse(xml_file)
     root = tree.getroot()
-    de_data = pd.DataFrame(columns=['Filename', 'Transcript'])
+    de_data = pd.DataFrame(columns=['Filename', 'transcript'])
     ch_data = pd.DataFrame(columns=de_data.columns)
 
     #loop through u-tags which each stand for 1 audio file (e.g. d1007_T1.wav)
@@ -150,8 +150,8 @@ def extract(xml_file):
             ch_transcript.append(token.text)
 
         try:
-            de_data = de_data.append({'Filename': filename, 'Transcript': " ".join(de_transcript)}, ignore_index=True)
-            ch_data = ch_data.append({'Filename': filename, 'Transcript': " ".join(ch_transcript)}, ignore_index=True)
+            de_data = de_data.append({'Filename': filename, 'transcript': " ".join(de_transcript)}, ignore_index=True)
+            ch_data = ch_data.append({'Filename': filename, 'transcript': " ".join(ch_transcript)}, ignore_index=True)
         except:
             next
 
@@ -170,8 +170,8 @@ def remove_duplicates_CH ():
         write_duplicates_CH = df_duplicates_CH[df_duplicates_CH.duplicated(['Filename'], keep=False)]
 
         #remove zero values
-        df_duplicates_CH['Transcript'] = df_duplicates_CH['Transcript'].replace('', np.nan)
-        df_duplicates_CH = df_duplicates_CH.dropna(axis=0, subset = ['Transcript'])
+        df_duplicates_CH['transcript'] = df_duplicates_CH['transcript'].replace('', np.nan)
+        df_duplicates_CH = df_duplicates_CH.dropna(axis=0, subset = ['transcript'])
 
         #remove one of the exact duplicates but keep the other one
         df_duplicates_CH.drop_duplicates(keep='first', inplace=True)
@@ -194,8 +194,8 @@ def remove_duplicates_DE ():
         write_duplicates_DE = df_duplicates_DE[df_duplicates_DE.duplicated(['Filename'], keep=False)]
 
         #remove zero values
-        df_duplicates_DE['Transcript'] = df_duplicates_DE['Transcript'].replace('', np.nan)
-        df_duplicates_DE = df_duplicates_DE.dropna(axis=0, subset = ['Transcript'])
+        df_duplicates_DE['transcript'] = df_duplicates_DE['transcript'].replace('', np.nan)
+        df_duplicates_DE = df_duplicates_DE.dropna(axis=0, subset = ['transcript'])
 
         #remove one of the exact duplicates but keep the other one
         df_duplicates_DE.drop_duplicates(keep='first', inplace=True)
@@ -234,13 +234,13 @@ def merge_de ():
 def create_DS_csv ():
     print('Extracting Filepath and -size for ArchiMob Audio')
     #this function holds the code to extract the filepath and filesize of all audio in the respective directory
-    data = pd.DataFrame(columns=['wav_filepath', 'wav_filesize'])
-    df = pd.DataFrame(columns=['wav_filepath', 'wav_filesize'])
+    data = pd.DataFrame(columns=['wav_filename', 'wav_filesize'])
+    df = pd.DataFrame(columns=['wav_filename', 'wav_filesize'])
 
     for entry in glob('./Pre_Processing_Files/audio_processed_final/*.wav'):
         filepath = os.path.abspath(entry)
         filesize = os.path.getsize(entry)
-        df['wav_filepath'] = [filepath]
+        df['wav_filename'] = [filepath]
         df['wav_filesize'] = [filesize]
         data = data.append(df)
     data.to_csv('./Pre_Processing_Files/DS_audio/DS_Data_Archimob_Filepath_Filesize.csv', header=True, index=False, encoding='utf-8-sig')
@@ -248,7 +248,7 @@ def create_DS_csv ():
 
 def merge_AM_transcripts (language):
     df_ds_csv = pd.read_csv('./Pre_Processing_Files/DS_audio/DS_Data_Archimob_Filepath_Filesize.csv')
-    df_ds_csv['Filename'] = df_ds_csv['wav_filepath']
+    df_ds_csv['Filename'] = df_ds_csv['wav_filename']
 
     #Extract ID from filepath for merging
     def extract_ID (x):
