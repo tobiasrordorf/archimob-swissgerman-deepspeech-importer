@@ -269,7 +269,7 @@ def merge_AM_transcripts (language):
     add_transcripts = pd.DataFrame()
     add_transcripts = pd.merge(df_ds_csv, df_archi_trans, on='Filename')
 
-    #Only save lines with filesize over 10'000 bytes and smaller than 335916
+    #Only save lines with filesize over 10'000 bytes and smaller than 335'916
     add_transcripts = add_transcripts.drop(columns=['Filename'])
 
     add_transcripts[add_transcripts['wav_filesize'] > 10000].to_csv('./Final_Training_CSV_for_Deespeech/DS_Archimob_Merged_'+language+'.csv', header=True, index=False, encoding='utf-8-sig')
