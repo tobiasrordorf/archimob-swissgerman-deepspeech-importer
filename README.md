@@ -68,5 +68,5 @@ The importer pre-processes the text-data so that it can be used with the open-so
 
 ## About this project:
 
-<p>This importer was created as part of the Master Thesis "Automatic Speech Recognition for Swiss German using Deep Neural Networks" for the degree Master of Business Innovation at the University of St. Gallen by Tobias Rordorf. In case of questions you can contact me through <a href='https://www.linkedin.com/in/tobiasrordorf/'>LinkedIn</a>.
+<p>This importer was created as part of the Master Thesis "Automatic Speech Recognition for Swiss German using Deep Neural Networks" for the degree Master of Business Innovation at the University of St. Gallen by Tobias Rordorf. In case of questions please feel free to contact me through <a href='https://www.linkedin.com/in/tobiasrordorf/'>LinkedIn</a>.
 
