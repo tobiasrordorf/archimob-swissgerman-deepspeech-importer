@@ -49,7 +49,7 @@ The importer pre-processes the text-data so that it can be used with the open-so
   - Audio File Format: .wav
   - Sampling rate: 16kHz
   - Audio bit depth: 16bit
-  - Original ArchiMob data is formatted as follows: .wav-file-format; Sampling rate: 48kHz; Audio bit depth: 16; Mono audio channel. 
+  - Original ArchiMob data is formatted as follows: wav-file-format; Sampling rate: 48kHz; Audio bit depth: 16; Mono audio channel.
 
 <b>Walk-through</b>
 - The transcriptions of ArchiMob audio data is stored in XML files.
