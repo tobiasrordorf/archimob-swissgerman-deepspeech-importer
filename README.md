@@ -47,8 +47,9 @@ The importer pre-processes the text-data so that it can be used with the open-so
 - Audio
   - The audio has to be pre-processed in order to be used for training the DeepSpeech engine.
   - Audio File Format: .wav
-  - Samplerate: 16kHz
-  - Bit pro Sample: 16bit
+  - Sampling rate: 16kHz
+  - Audio bit depth: 16bit
+  - Original ArchiMob data is formatted as follows: .wav-file-format; Sampling rate: 48kHz; Audio bit depth: 16; Mono audio channel. 
 
 <b>Walk-through</b>
 - The transcriptions of ArchiMob audio data is stored in XML files.
