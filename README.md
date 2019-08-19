@@ -1,7 +1,7 @@
 # Swiss-German DeepSpeech Importer
 
 This repository holds an Importer for the ArchiMob speech corpus.
-The importer pre-processes the text-data so that it can used with the open-source Speech-to-Text engine by DeepSpeech.
+The importer pre-processes the text-data so that it can be used with the open-source Speech-to-Text engine by DeepSpeech.
 
 **Table of Contents**
 
