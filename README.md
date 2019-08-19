@@ -59,7 +59,7 @@ The importer pre-processes the text-data so that it can used with the open-sourc
 - Next, duplicates are removed (duplicates exist in XML files when an audio file contains two speakers) to simplify training for DeepSpeech. (A list of the removed duplicates are available in ./Pre_Processing_Files/CSV_Merged/)
 - Next, Zero values are dropped (audio files with silences contain zero values in the transcriptions)
 - Next, the CSV Files of the XML packages (e.g. 1300, 1295) are merged into one file per language (DE/CH)
-- Then, a CSV that contains [wav_filepath], [wav_filesize] of .wav files in ./Pre_Processing_Files/audio_processed_final/ is created
+- Then, a CSV that contains [wav_filename], [wav_filesize] of .wav files in ./Pre_Processing_Files/audio_processed_final/ is created
 - Lastly, the merged transcripts and the CSV with filepaths and filesizes are merged
 - Final output of the importer pipeline can be found in ./Final_Training_CSV_for_Deespeech/
 
