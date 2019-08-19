@@ -35,7 +35,6 @@ def download_and_extract_zip(url):
         with ZipFile(BytesIO(zipresp.read())) as zfile:
             zfile.extractall('./Pre_Processing_Files')
 
-download_and_extract_zip(url)
 
 #Creating the necessary directories
 path_PP = './Pre_Processing_Files'
@@ -122,8 +121,8 @@ if os.path.isdir('./audio') is True:
     merge_audiofiles_from_folders()
     pre_process_audio()
 else:
-    print('No directory "audio" detected and therefore no audio-pre-processing initiated')
-    print('See Readme.md for more information on ArchiMob audio files')
+    print('!!! No directory "audio" detected and therefore no audio-pre-processing initiated !!!')
+    print('!!! See Readme.md for more information on ArchiMob audio files !!!')
     next
 
 #Extracting DE and CH Texts from XML Files and saving the outputs per file in a csv
@@ -278,6 +277,9 @@ def merge_AM_transcripts (language):
     print('Merged Transcripts and Filenames and resized sample')
 
 #Call the functions
+
+#Download XML Files
+download_and_extract_zip(url)
 
 #Extract CH and DE from XMLs
 path_to_XML = './Pre_Processing_Files/ArchiMob_Release1_160812/XML/Content'
