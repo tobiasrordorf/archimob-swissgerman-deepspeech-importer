@@ -269,12 +269,12 @@ def merge_AM_transcripts (language):
     add_transcripts = pd.DataFrame()
     add_transcripts = pd.merge(df_ds_csv, df_archi_trans, on='Filename')
 
-    #Only save lines with filesize over 10'000 bytes and smaller than 335'916
+    #Only save lines with filesize over 10'000 bytes and smaller than 318'400 (below 10 seconds)
     add_transcripts = add_transcripts.drop(columns=['Filename'])
 
     add_transcripts[add_transcripts['wav_filesize'] > 10000].to_csv('./Final_Training_CSV_for_Deespeech/DS_Archimob_Merged_'+language+'.csv', header=True, index=False, encoding='utf-8-sig')
     resize = pd.read_csv('./Final_Training_CSV_for_Deespeech/DS_Archimob_Merged_' + language +'.csv')
-    resize[resize['wav_filesize']< 335916].to_csv('./Final_Training_CSV_for_Deespeech/DS_Archimob_Merged_'+language+'.csv', header=True, index=False, encoding='utf-8-sig')
+    resize[resize['wav_filesize']< 318400].to_csv('./Final_Training_CSV_for_Deespeech/DS_Archimob_Merged_'+language+'.csv', header=True, index=False, encoding='utf-8-sig')
     print('Merged Transcripts and Filenames and resized sample')
 
 #Call the functions
