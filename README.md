@@ -54,7 +54,11 @@ The importer pre-processes the text-data so that it can be used with the open-so
   - Original ArchiMob data is formatted as follows: wav-file-format; Sampling rate: 48kHz; Audio bit depth: 16; Mono audio channel.
 
 <b>Walk-through</b>
-- The transcriptions of ArchiMob audio data is stored in XML files.
+
+- Info:
+  - the transcriptions of the audio files are available in Swiss German and standard German, and are stored in XML files.
+  -
+
 - If the folder ./audio exists the ArchiMob audio files are pre-processed:
   - First, files are merged from subfolders into ./Pre_Processing_Files/audio_merged.
   - 1.2 Next, the .wav files are pre-processed according to above format-specifications
