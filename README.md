@@ -1,7 +1,7 @@
 # Swiss-German DeepSpeech Importer
 
 This repository holds an Importer for the ArchiMob speech corpus.
-The importer pre-processes the text-data so that it can be used with the open-source Speech-to-Text engine by DeepSpeech.
+The importer pre-processes the audio- and text-data so that it can be used with the open-source Speech-to-Text engine by DeepSpeech.
 
 **Table of Contents**
 
@@ -28,7 +28,7 @@ The importer pre-processes the text-data so that it can be used with the open-so
 
 <p>The transcriptions including media-pointers (IDs to the audio file segments) are available in the XML-files <a href='https://www.spur.uzh.ch/en/departments/research/textgroup/ArchiMob.html'>here</a>. When using this importer, the XML-files will be downloaded automatically.</p>
 
-<p>At the time of the creation of this importer the Archimob corpus featured 75'344 audio files (full list of wav-Filenames in ./Resources/List_of_wav_files.csv) and 52 XML files. (full list of XML-Filenames ./Resources/List_of_available_XML_files.txt)</p>
+<p>At the time of the creation of this importer the Archimob corpus featured 75'344 audio files and 52 XML files. full list of Filenames in <a href='https://github.com/tobiasrordorf/swissgerman-deepspeech-importer/tree/master/Resources'>Resources</a>)</p>
 
 <p>For access to the audio files, please follow the information on the homepage of the "Language and Space Lab"</p>
 
@@ -56,23 +56,29 @@ The importer pre-processes the text-data so that it can be used with the open-so
 <b>Walk-through</b>
 
 - Info:
-  - the transcriptions of the audio files are available in Swiss German and standard German, and are stored in XML files.
-  -
+  - The transcriptions of the audio files are available in Swiss German (CH) and standard German (DE), and are stored in XML files.
+  - If you have acquired the audio files as mentioned above, create a folder called 'audio' and place the files in this folder. (If no 'audio'-folder exists, the script will not pre-process any audio and will not be able to match the transcripts to the available audio files)
 
-- If the folder ./audio exists the ArchiMob audio files are pre-processed:
-  - First, files are merged from subfolders into ./Pre_Processing_Files/audio_merged.
-  - 1.2 Next, the .wav files are pre-processed according to above format-specifications
-- The CH and DE words are extracted from the XML file and joined to strings with the media-pointer ID (which matches the audio_filename)
-- Next, duplicates are removed (duplicates exist in XML files when an audio file contains two speakers) to simplify training for DeepSpeech. (A list of the removed duplicates are available in ./Pre_Processing_Files/CSV_Merged/)
-- Next, Zero values are dropped (audio files with silences contain zero values in the transcriptions)
-- Next, the CSV Files of the XML packages (e.g. 1300, 1295) are merged into one file per language (DE/CH). During this process, 304 files below 10'000 Bytes and above 318'400 Bytes (longer than 10 seconds) are dropped. +
-- Then, a CSV that contains [wav_filename], [wav_filesize] of .wav files in ./Pre_Processing_Files/audio_processed_final/ is created
-- Lastly, the merged transcripts and the CSV with filepaths and filesizes are merged
-- Final output of the importer pipeline can be found in ./Final_Training_CSV_for_Deespeech/
+- Steps:
+1. Audio files are merged from subfolders into one folder in ./Pre_Processing_Files/audio_merged.
+2. Wav-Files are pre-processed according to above format-specifications and stored in ./Pre_Processing_Files/audio_processed_final
 
-<i>+ This step is necessary to ensure good audio quality. Small files contain unrecognizable audio or chopped syllables (Example: d1205_T864.wav (>10'000 Bytes) contains the sound "mhm" which is valid, d1248_T502.wav (<10'000 Bytes) however, contains the chopped sound "m" and is therefore removed). Large files are not feasible because they are too long for proper training in DeepSpeech. For traceability-purposes, have a look at the overview in folder ./Resources/Audio-Overview/DS_Data_Archimob_size_length.xlsx</i>
+3. The CH and DE words are extracted from the XML-files and joined to strings with the corresponding media-pointer ID (which matches the audio_filename), and stored in csv per XML-file
+4. Duplicates and zero values in transcriptions  are removed. (List of removed duplicates are available in ./Pre_Processing_Files/CSV_Merged/)
+5. All csv per language are merged
 
-<b> Please note that the full script that processes all ca. 70'000 .wav files can take up to 3.5 hours (due to extensive audio pre-processing)</b>
+6. A csv that contains [wav_filename], [wav_filesize] of all wav files in ./Pre_Processing_Files/audio_processed_final/ is created.
+7. The transcriptions, filenames and filesizes are merged and files below 10'000 Bytes and above 318'400 Bytes are dropped. (See comment below)
+8. The merged transcripts are then cleaned of unwanted characters (e.g. semicolon, commas etc.)
+9. The DE-transcriptions of files of the package 'd1163' are removed because they have not been translated
+
+10. The final transcripts are splitted into train, test, and dev files and stored in ./Final_Training_CSV_for_Deepspeech/. (train: 75%, test: 15%, dev: 10%)
+
+
+
+<i>Dropping due to size restrictions: This step is necessary to ensure good audio quality. Small files contain unrecognizable audio or chopped syllables (Example: d1205_T864.wav (>10'000 Bytes) contains the sound "mhm" which is valid, d1248_T502.wav (<10'000 Bytes) however, contains the chopped sound "m" and is therefore removed). Large files are not feasible because they are too long for proper training in DeepSpeech. For traceability-purposes, have a look at the overview in folder ./Resources/Audio-Overview/DS_Data_Archimob_size_length.xlsx</i>
+
+<b> Please note that the full script that processes all wav and XML files can take up to 3.5 hours (due to extensive audio pre-processing)</b>
 
 ## About this project:
 
