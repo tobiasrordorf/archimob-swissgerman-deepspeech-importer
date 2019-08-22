@@ -58,18 +58,18 @@ The importer pre-processes the audio- and text-data so that it can be used with 
 - Info:
   - The transcriptions of the audio files are available in Swiss German (CH) and standard German (DE), and are stored in XML files.
   - If you have acquired the audio files as mentioned above, create a folder called 'audio' and place the files in this folder. (If no 'audio'-folder exists, the script will not pre-process any audio and will not be able to match the transcripts to the available audio files)
-
-1. Audio files are merged from subfolders into one folder in ./Pre_Processing_Files/audio_merged.
-2. Wav-Files are pre-processed according to above format-specifications and stored in ./Pre_Processing_Files/audio_processed_final
+<b>
+1. Audio files are merged from subfolders into one folder in './Pre_Processing_Files/audio_merged'.
+2. Wav-Files are pre-processed according to above format-specifications and stored in './Pre_Processing_Files/audio_processed_final'
 3. The CH and DE words are extracted from the XML-files and joined to strings with the corresponding media-pointer ID (which matches the audio_filename), and stored in csv per XML-file
-4. Duplicates and zero values in transcriptions  are removed. (List of removed duplicates are available in ./Pre_Processing_Files/CSV_Merged/)
+4. Duplicates and zero values in transcriptions  are removed. (List of removed duplicates are available in './Pre_Processing_Files/CSV_Merged/')
 5. All csv per language are merged
-6. A csv that contains [wav_filename], [wav_filesize] of all wav files in ./Pre_Processing_Files/audio_processed_final/ is created.
+6. A csv that contains [wav_filename], [wav_filesize] of all wav files in './Pre_Processing_Files/audio_processed_final/' is created.
 7. The transcriptions, filenames and filesizes are merged and files below 10'000 Bytes and above 318'400 Bytes are dropped. (See comment below)
 8. The merged transcripts are then cleaned of unwanted characters (e.g. semicolon, commas etc.)
 9. The DE-transcriptions of files of the package 'd1163' are removed because they have not been translated
-10. The final transcripts are splitted into train, test, and dev files and stored in ./Final_Training_CSV_for_Deepspeech/. (train: 75%, test: 15%, dev: 10%)
-
+10. The final transcripts are splitted into train, test, and dev files and stored in './Final_Training_CSV_for_Deepspeech/'. (train: 75%, test: 15%, dev: 10%)
+</b>
 <br>
 
 <i>Dropping due to size restrictions: This step is necessary to ensure good audio quality. Small files contain unrecognizable audio or chopped syllables (Example: d1205_T864.wav (>10'000 Bytes) contains the sound "mhm" which is valid, d1248_T502.wav (<10'000 Bytes) however, contains the chopped sound "m" and is therefore removed). Large files are not feasible because they are too long for proper training in DeepSpeech. For traceability-purposes, have a look at the overview in folder ./Resources/Audio-Overview/DS_Data_Archimob_size_length.xlsx</i>
