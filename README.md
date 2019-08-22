@@ -84,7 +84,7 @@ The importer pre-processes the audio- and text-data so that it can be used with 
 ## Check characters
 
 <p> In order to compile the necessary language models required by DeepSpeech, the alphabet.txt has to be configured to the Archimob-dataset</p>
-<p> The script ./Check_Characters/check_caracters.py (provided by DeepSpeech) generates a list of characters that appear in the csv-files. It can be instantiated like this: python3 check_characters.py -csv '../Final_Training_CSV_for_Deepspeech/ch_dev.csv' -alpha</p>
+<p> The script check_caracters.py (provided by DeepSpeech) generates a list of characters that appear in the csv-files. It can be instantiated like this: python3 ./Check_Characters/check_characters.py -csv './Final_Training_CSV_for_Deepspeech/ch_dev.csv' -alpha</p>
 
 
 ## About this project:
