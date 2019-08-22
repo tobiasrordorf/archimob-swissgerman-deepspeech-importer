@@ -9,6 +9,7 @@ The importer pre-processes the audio- and text-data so that it can be used with 
 - [ArchiMob Corpus](#ArchiMob-Corpus)
 - [Automatic Speech Recognition with Mozilla's DeepSpeech](#Automatic-Speech-Recognition-with-Mozilla's-DeepSpeech)
 - [Walk-through ArchiMob Importer](#Walk-through-ArchiMob-Importer)
+- [Check-Characters](#Check-Characters)
 - [About this project](#About-this-project)
 
 <h>
@@ -79,6 +80,12 @@ The importer pre-processes the audio- and text-data so that it can be used with 
 <i>Dropping due to size restrictions: This step is necessary to ensure good audio quality. Small files contain unrecognizable audio or chopped syllables (Example: d1205_T864.wav (>10'000 Bytes) contains the sound "mhm" which is valid, d1248_T502.wav (<10'000 Bytes) however, contains the chopped sound "m" and is therefore removed). Large files are not feasible because they are too long for proper training in DeepSpeech. For traceability-purposes, have a look at the overview in folder ./Resources/Audio-Overview/DS_Data_Archimob_size_length.xlsx</i>
 
 <b> Please note that the full script that processes all wav and XML files can take up to 3.5 hours (due to extensive audio pre-processing)</b>
+
+## Check characters
+
+<p> In order to compile the necessary language models required by DeepSpeech, the alphabet.txt has to be configured to the Archimob-dataset</p>
+<p> The script ./Check_Characters/check_caracters.py (provided by DeepSpeech) generates a list of characters that appear in the csv-files. It can be instantiated like this: python3 check_characters.py -csv '../Final_Training_CSV_for_Deepspeech/ch_dev.csv' -alpha</p>
+
 
 ## About this project:
 
