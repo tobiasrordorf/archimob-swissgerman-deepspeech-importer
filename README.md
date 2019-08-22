@@ -26,7 +26,9 @@ The importer pre-processes the text-data so that it can be used with the open-so
 <p>The ArchiMob corpus holds swiss german audio data as well as swiss-german and "high-german" transcriptions. </p>
 <p>The corpus is available under the <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> and is provided by the <a href='https://www.spur.uzh.ch/en/departments/research/textgroup/ArchiMob.html'>Language and Space Lab of the University of Zurich</a>. This importer builds upon the ArchiMob corpus license and therefore is restricted to the same license.</p>
 
-<p>The transcriptions including media-pointers (IDs to the audio file segments) are available in the XML-files <a href='https://www.spur.uzh.ch/en/departments/research/textgroup/ArchiMob.html'>here</a>. When using this importer, the XML-files do not have to be downloaded automatically</p>
+<p>The transcriptions including media-pointers (IDs to the audio file segments) are available in the XML-files <a href='https://www.spur.uzh.ch/en/departments/research/textgroup/ArchiMob.html'>here</a>. When using this importer, the XML-files will be downloaded automatically.</p>
+
+<p>At the time of the creation of this importer the Archimob corpus featured 75'344 audio files (full list of wav-Filenames in ./Resources/List_of_wav_files.csv) and 52 XML files. (full list of XML-Filenames ./Resources/List_of_available_XML_files.txt)</p>
 
 <p>For access to the audio files, please follow the information on the homepage of the "Language and Space Lab"</p>
 
@@ -66,7 +68,7 @@ The importer pre-processes the text-data so that it can be used with the open-so
 
 <i>+ This step is necessary to ensure good audio quality. Small files contain unrecognizable audio or chopped syllables (Example: d1205_T864.wav (>10'000 Bytes) contains the sound "mhm" which is valid, d1248_T502.wav (<10'000 Bytes) however, contains the chopped sound "m" and is therefore removed). Large files are not feasible because they are too long for proper training in DeepSpeech. For traceability-purposes, have a look at the overview in folder ./Resources/Audio-Overview/DS_Data_Archimob_size_length.xlsx</i>
 
-<b> Please note that the full script that processes all ca. 70'000 .wav files can take a long time, because of audio pre-processing</b>
+<b> Please note that the full script that processes all ca. 70'000 .wav files can take up to 3.5 hours (due to extensive audio pre-processing)</b>
 
 ## About this project:
 
