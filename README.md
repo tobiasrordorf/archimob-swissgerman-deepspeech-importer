@@ -60,7 +60,6 @@ The importer pre-processes the audio- and text-data so that it can be used with 
   - The transcriptions of the audio files are available in Swiss German (CH) and standard German (DE), and are stored in XML files.
   - If you have acquired the audio files as mentioned above, create a folder called 'audio' and place the files in this folder. (If no 'audio'-folder exists, the script will not pre-process any audio and will not be able to match the transcripts to the available audio files)
 
-- Steps:
 1. Audio files are merged from subfolders into one folder in ./Pre_Processing_Files/audio_merged.
 2. Wav-Files are pre-processed according to above format-specifications and stored in ./Pre_Processing_Files/audio_processed_final
 
@@ -83,8 +82,9 @@ The importer pre-processes the audio- and text-data so that it can be used with 
 
 ## Check characters
 
-<p> In order to compile the necessary language models required by DeepSpeech, the alphabet.txt has to be configured to the Archimob-dataset</p>
-<p> The script check_caracters.py (provided by DeepSpeech) generates a list of characters that appear in the csv-files. It can be instantiated like this: python3 ./Check_Characters/check_characters.py -csv './Final_Training_CSV_for_Deepspeech/ch_dev.csv' -alpha</p>
+<p> In order to compile the necessary language models required by DeepSpeech, the alphabet.txt has to be configured to the Archimob-dataset.</p>
+<p> The script check_caracters.py (provided by DeepSpeech) generates a list of characters that appear in the csv-files. It can be instantiated like this: <br>
+$ python3 ./Check_Characters/check_characters.py -csv './Final_Training_CSV_for_Deepspeech/ch_dev.csv' -alpha</p>
 
 
 ## About this project:
